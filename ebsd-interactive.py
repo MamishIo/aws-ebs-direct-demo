@@ -77,7 +77,7 @@ def pretty_print_bytes(bstring, title=None):
         print(title)
     print(f'[binary data: {len(bstring)} bytes]')
     for i in range(0, len(bstring), 16):
-        row = bstring[i:i+16]
+        row = run(bstring, i, 16)
         print(f'{i:04x} | {row.hex(" ", -4)} | {str(row)}')
 
 def assert_equals(what, actual, expected, ignorable=False):
@@ -161,16 +161,16 @@ efi_header = get_logical_block(1)
 pretty_print_bytes(efi_header, 'Dump of main EFI header (LBA1):')
 
 print()
-efi_sig, efi_rev, efi_header_sz = unpack('< 8s L L', efi_header[:16])
+efi_sig, efi_rev, efi_header_sz = unpack('< 8s L L', run(efi_header, 0, 16))
 assert_equals('EFI signature says "EFI PART"', efi_sig, b'EFI PART')
 assert_equals('EFI revision is 1.0', efi_rev, 1 << 16) # The revision is structured weirdly, '00 00 01 00' for some reason
 assert_equals('EFI header size is 92 bytes', efi_header_sz, 92)
-efi_current_lba, efi_backup_lba = unpack('< Q Q', efi_header[24:24+16])
+efi_current_lba, efi_backup_lba = unpack('< Q Q', run(efi_header, 24, 16))
 assert_equals('Main EFI header located at LBA1:', efi_current_lba, 1)
 (efi_backup_sig,) = unpack('< 8s', get_logical_block(efi_backup_lba)[:8])
 assert_equals(f'Backup EFI header sig at backup LBA {efi_backup_lba}', efi_backup_sig, b'EFI PART')
-(efi_first_usable_lba,) = unpack('< 8s', efi_header[40:48])
-efi_pte_table_lba, efi_num_ptes, efi_pte_size = unpack('< Q L L', efi_header[72:72+16])
+(efi_first_usable_lba,) = unpack('< 8s', run(efi_header, 40, 8))
+efi_pte_table_lba, efi_num_ptes, efi_pte_size = unpack('< Q L L', run(efi_header, 72, 16))
 assert_equals('EFI partition table LBA is 2', efi_pte_table_lba, 2)
 assert_equals('EFI partition table has 128 entries', efi_num_ptes, 128)
 assert_equals('EFI partition table entry size is 128', efi_pte_size, 128)
@@ -258,7 +258,7 @@ print()
 (sb_inodes_count, sb_blocks_count_lo, sb_r_blocks_count_lo, sb_free_blocks_count_lo, sb_free_inodes_count,
  sb_first_data_block, sb_log_block_size, sb_log_cluster_size, sb_blocks_per_group, sb_clusters_per_group,
  sb_inodes_per_group, sb_mtime, sb_wtime, sb_mnt_count, sb_max_mnt_count, sb_magic, sb_state
-) = unpack('< 13L H H 2s H', linux_fs_sb[:60])
+) = unpack('< 13L H H 2s H', run(linux_fs_sb, 0, 60))
 (sb_blocks_count_hi, sb_r_blocks_count_hi, sb_free_blocks_count_hi) = unpack('<3L', run(linux_fs_sb, 0x150, 12))
 sb_blocks_count_i64 = (sb_blocks_count_hi << 32) + sb_blocks_count_lo
 sb_block_size = 2**(sb_log_block_size + 10)
@@ -284,7 +284,7 @@ print(f'state = {sb_state:0b}')
 print()
 assert_equals('Superblock has magic bytes 0x53ef for an ext(2|3|4) filesystem', sb_magic, b'\x53\xef')  
 
-(sb_first_ino, sb_inode_size, sb_block_group_nr) = unpack('< L H H', linux_fs_sb[0x54:0x5C])
+(sb_first_ino, sb_inode_size, sb_block_group_nr) = unpack('< L H H', run(linux_fs_sb, 0x54, 8))
 print()
 print(f'first non-reserved inode = {sb_first_ino}')
 print(f'inode size = {sb_inode_size}')
@@ -363,7 +363,7 @@ print()
 print(f'group descriptor size = {sb_desc_size}')
 assert_equals('Filesystem uses 64-byte GDTs', sb_desc_size, 64)
 
-(sb_log_groups_per_flex,) = unpack('< b', linux_fs_sb[0x174:0x175])
+(sb_log_groups_per_flex,) = unpack('< b', run(linux_fs_sb, 0x174, 1))
 print()
 print(f'log2 of flex group size = {sb_log_groups_per_flex} (size={2**sb_log_groups_per_flex})')
 
