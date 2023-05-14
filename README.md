@@ -7,3 +7,19 @@ A quick demo that showcases using the AWS EBS Direct APIs to read a snapshot, pa
 Does not use any ext4 parsing libraries, since I wanted an excuse to do some kernel deep-diving and learn how disks and filesystems work. It almost certainly has bugs and will be incompatible with many filesystems outside the testing profile.
 
 Tested on Ubuntu 22.04 LTS, and may fail on other distros and other default filesystem settings. E.g. will definitely not work for Amazon Linux 2/2023 since it uses XFS filesystem by default rather than ext4.
+
+## Setup
+
+```bash
+pip3 install -t . requirements.txt
+```
+
+## Usage
+
+```bash
+python3 ebsd-interactive.py SNAPSHOT_ID
+```
+
+(This assumes you already have credentials and CLI/SDK profile/region already set up.)
+
+Use `help` to list commands.
