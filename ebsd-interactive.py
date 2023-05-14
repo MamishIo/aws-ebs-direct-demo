@@ -522,9 +522,6 @@ def get_inode_data(inode_number, assert_ftype=None, metadata_only=False):
     print(f'inode {inode_number} permissions = {inode_permissions:04o}, file type = {inode_file_type:#x} ({inode_file_type_name})')
     if assert_ftype:
         assert_equals(f'inode {inode_number} has expected ftype "{assert_ftype}"', inode_file_type_name, assert_ftype)
-    # Symbolic links are exempt from the extent flag check
-    if inode_file_type_name != 'FLNK':
-        assert_equals(f'inode {inode_number} uses extents', inode_flags & 0x80000, 0x80000)
 
     section_pause()
 
@@ -533,9 +530,11 @@ def get_inode_data(inode_number, assert_ftype=None, metadata_only=False):
 
     data = bytearray(inode_size)
     # Symbolic links are a special case where the target dir may be written directly into the block
+    # If this is the case, don't check for extent flag or try to read extent data
     if inode_file_type_name == 'FLNK' and inode_size < 60: # Docs say "less than 60 bytes" specifically
         data[0:inode_size] = inode_content[0:inode_size]
     else:
+        assert_equals(f'inode {inode_number} uses extents', inode_flags & 0x80000, 0x80000)
         copy_extent_data(inode_content, data, inode_size)
     return data
 
