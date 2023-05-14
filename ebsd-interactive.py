@@ -32,7 +32,7 @@ def section_pause():
 # Lists all available snapshot blocks and sets up functions to read block data.
 # Block data is permanently cached so subsequent reads don't need more API calls.
 #
-# Notice that EBS Direct blocks are 512KiB, so 1024x as big as LBA locks (512B).
+# Notice that EBS Direct blocks are 512KiB, so 1024x as big as LBA blocks (512B).
 # Unless reads are very sparse, this means very few API calls are needed for any given number of LBA or filesystem
 # block reads.
 
