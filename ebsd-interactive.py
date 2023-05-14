@@ -374,6 +374,7 @@ def get_fs_raw_block(fs_index):
     lbas = [get_logical_block(lba_start + i) for i in range(num_logical_per_fs_block)]
     return b''.join(lbas)
 
+
 ## Part 5: Interpreting Block Group Descriptors
 #
 # The filesystem is divided into block groups of `sb_blocks_per_group` filesystem blocks. Immediately following the
@@ -442,6 +443,7 @@ for gdt_index in range(fs_num_block_groups):
 
 section_pause()
 
+
 ## Part 6: Define function to locate and read inode descriptors
 #
 # inodes are (at least in my test filesystems) a padded 256-byte descriptor. These are divided across block groups,
@@ -467,6 +469,7 @@ def get_inode(inode_number):
     print(f'get_inode({inode_number}): exact filesystem block is {inode_table_exact} ({inode_table_base} + {inode_table_block_num})')
     
     return run(inode_block, inode_table_block_offset, sb_inode_size)
+
 
 ## Part 7: Define function to load file/block data for an inode
 #
@@ -599,6 +602,7 @@ def copy_extent_data(extent_node, data_array, max_length):
                     copy_len = sb_block_size
                 data_array[data_offset:data_offset+copy_len] = get_fs_raw_block(data_block)[:copy_len]
 
+
 ## Part 8: Define function to read directory entry data from FDIR inodes
 #
 # Ext4 directories are encoded in the data for FDIR-type inodes. The basic encoding is the 'classic'/linear encoding,
@@ -649,6 +653,7 @@ def list_linear_directory(dir_data):
         dirent_cursor += dirent_len
 
     return result_dirs
+
 
 ## Part 9: Spin up a CLI session to play around with directories and files
 #
