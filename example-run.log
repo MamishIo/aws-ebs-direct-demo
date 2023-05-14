@@ -1,0 +1,1938 @@
+Got EBS API block tokens, e.g. first 2: [(0, 'ACgBASkM0e33w3kVo0G0df7AM7ubUwqlSecWPiT4GaxsMxHUYksFmIduCLUQ'), (1, 'ACgBAb118WpMtsaUsV0t1Hk8VmFTfpW/bG/SXplgW/u6EVl9m/XZwZw8L0Z9')]
+
+(API call: fetching EBS block 0...)
+Dump of MBR (LBA0):
+[binary data: 512 bytes]
+0000 | eb639000 00000000 00000000 00000000 | b'\xebc\x90\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0010 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000080 00080000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x00\x08\x00\x00'
+0060 | 00000000 fffa9090 f6c28074 05f6c270 | b'\x00\x00\x00\x00\xff\xfa\x90\x90\xf6\xc2\x80t\x05\xf6\xc2p'
+0070 | 7402b280 ea797c00 0031c08e d88ed0bc | b't\x02\xb2\x80\xeay|\x00\x001\xc0\x8e\xd8\x8e\xd0\xbc'
+0080 | 0020fba0 647c3cff 740288c2 52bb1704 | b'\x00 \xfb\xa0d|<\xfft\x02\x88\xc2R\xbb\x17\x04'
+0090 | f6070374 06be887d e81701be 057cb441 | b'\xf6\x07\x03t\x06\xbe\x88}\xe8\x17\x01\xbe\x05|\xb4A'
+00a0 | bbaa55cd 135a5272 3d81fb55 aa753783 | b'\xbb\xaaU\xcd\x13ZRr=\x81\xfbU\xaau7\x83'
+00b0 | e1017432 31c08944 04408844 ff894402 | b'\xe1\x01t21\xc0\x89D\x04@\x88D\xff\x89D\x02'
+00c0 | c7041000 668b1e5c 7c66895c 08668b1e | b'\xc7\x04\x10\x00f\x8b\x1e\\|f\x89\\\x08f\x8b\x1e'
+00d0 | 607c6689 5c0cc744 060070b4 42cd1372 | b'`|f\x89\\\x0c\xc7D\x06\x00p\xb4B\xcd\x13r'
+00e0 | 05bb0070 eb76b408 cd13730d 5a84d20f | b'\x05\xbb\x00p\xebv\xb4\x08\xcd\x13s\rZ\x84\xd2\x0f'
+00f0 | 83d000be 937de982 00660fb6 c68864ff | b'\x83\xd0\x00\xbe\x93}\xe9\x82\x00f\x0f\xb6\xc6\x88d\xff'
+0100 | 40668944 040fb6d1 c1e20288 e888f440 | b'@f\x89D\x04\x0f\xb6\xd1\xc1\xe2\x02\x88\xe8\x88\xf4@'
+0110 | 8944080f b6c2c0e8 02668904 66a1607c | b'\x89D\x08\x0f\xb6\xc2\xc0\xe8\x02f\x89\x04f\xa1`|'
+0120 | 6609c075 4e66a15c 7c6631d2 66f73488 | b'f\t\xc0uNf\xa1\\|f1\xd2f\xf74\x88'
+0130 | d131d266 f774043b 44087d37 fec188c5 | b'\xd11\xd2f\xf7t\x04;D\x08}7\xfe\xc1\x88\xc5'
+0140 | 30c0c1e8 0208c188 d05a88c6 bb00708e | b'0\xc0\xc1\xe8\x02\x08\xc1\x88\xd0Z\x88\xc6\xbb\x00p\x8e'
+0150 | c331dbb8 0102cd13 721e8cc3 601eb900 | b'\xc31\xdb\xb8\x01\x02\xcd\x13r\x1e\x8c\xc3`\x1e\xb9\x00'
+0160 | 018edb31 f6bf0080 8ec6fcf3 a51f61ff | b'\x01\x8e\xdb1\xf6\xbf\x00\x80\x8e\xc6\xfc\xf3\xa5\x1fa\xff'
+0170 | 265a7cbe 8e7deb03 be9d7de8 3400bea2 | b'&Z|\xbe\x8e}\xeb\x03\xbe\x9d}\xe84\x00\xbe\xa2'
+0180 | 7de82e00 cd18ebfe 47525542 20004765 | b'}\xe8.\x00\xcd\x18\xeb\xfeGRUB \x00Ge'
+0190 | 6f6d0048 61726420 4469736b 00526561 | b'om\x00Hard Disk\x00Rea'
+01a0 | 64002045 72726f72 0d0a00bb 0100b40e | b'd\x00 Error\r\n\x00\xbb\x01\x00\xb4\x0e'
+01b0 | cd10ac3c 0075f4c3 00000000 00000000 | b'\xcd\x10\xac<\x00u\xf4\xc3\x00\x00\x00\x00\x00\x00\x00\x00'
+01c0 | 0200eeff ffff0100 0000ffff 7f010000 | b'\x02\x00\xee\xff\xff\xff\x01\x00\x00\x00\xff\xff\x7f\x01\x00\x00'
+01d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01f0 | 00000000 00000000 00000000 000055aa | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00U\xaa'
+
+Dump of MBR PTE0:
+[binary data: 16 bytes]
+0000 | 00000200 eeffffff 01000000 ffff7f01 | b'\x00\x00\x02\x00\xee\xff\xff\xff\x01\x00\x00\x00\xff\xff\x7f\x01'
+PTE0 status: 0x00
+PTE0 type: 0xee
+PTE0 first LBA: 1
+PTE0 num sectors: 25165823
+PTE0 has EFI partition type (0xEE) = True
+PTE0 has EFI partition at LBA1 = True
+MBR signature:
+[binary data: 2 bytes]
+0000 | 55aa | b'U\xaa'
+MBR signature is 0x55AA = True
+
+Dump of main EFI header (LBA1):
+[binary data: 512 bytes]
+0000 | 45464920 50415254 00000100 5c000000 | b'EFI PART\x00\x00\x01\x00\\\x00\x00\x00'
+0010 | 01dfa36f 00000000 01000000 00000000 | b'\x01\xdf\xa3o\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
+0020 | ffff7f01 00000000 22000000 00000000 | b'\xff\xff\x7f\x01\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00'
+0030 | deff7f01 00000000 ab658d21 e3b4d74b | b'\xde\xff\x7f\x01\x00\x00\x00\x00\xabe\x8d!\xe3\xb4\xd7K'
+0040 | 8e3a1bbb 363aa906 02000000 00000000 | b'\x8e:\x1b\xbb6:\xa9\x06\x02\x00\x00\x00\x00\x00\x00\x00'
+0050 | 80000000 80000000 60b60f69 00000000 | b'\x80\x00\x00\x00\x80\x00\x00\x00`\xb6\x0fi\x00\x00\x00\x00'
+0060 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0080 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0090 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0100 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0110 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0120 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0130 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0140 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0150 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0160 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0170 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0180 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0190 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+EFI signature says "EFI PART" = True
+EFI revision is 1.0 = True
+EFI header size is 92 bytes = True
+Main EFI header located at LBA1: = True
+(API call: fetching EBS block 24575...)
+Backup EFI header sig at backup LBA 25165823 = True
+EFI partition table LBA is 2 = True
+EFI partition table has 128 entries = True
+EFI partition table entry size is 128 = True
+
+
+EFI partition 0 has type "LINUX_FILESYSTEM" (0fc63daf-8483-4772-8e79-3d69d8477de4)
+Partition table entry:
+[binary data: 128 bytes]
+0000 | af3dc60f 83847247 8e793d69 d8477de4 | b'\xaf=\xc6\x0f\x83\x84rG\x8ey=i\xd8G}\xe4'
+0010 | 71a1e4b2 ecbff043 928df8fe 44362f17 | b'q\xa1\xe4\xb2\xec\xbf\xf0C\x92\x8d\xf8\xfeD6/\x17'
+0020 | 00780300 00000000 deff7f01 00000000 | b'\x00x\x03\x00\x00\x00\x00\x00\xde\xff\x7f\x01\x00\x00\x00\x00'
+0030 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+EFI partition 13 has type "BIOS_BOOT_PARTITION" (21686148-6449-6e6f-744e-656564454649)
+Partition table entry:
+[binary data: 128 bytes]
+0000 | 48616821 49646f6e 744e6565 64454649 | b'Hah!IdontNeedEFI'
+0010 | f737e695 b67ab448 ac1466a7 518b75ba | b'\xf77\xe6\x95\xb6z\xb4H\xac\x14f\xa7Q\x8bu\xba'
+0020 | 00080000 00000000 ff270000 00000000 | b"\x00\x08\x00\x00\x00\x00\x00\x00\xff'\x00\x00\x00\x00\x00\x00"
+0030 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+EFI partition 14 has type "EFI_SYSTEM_PARTITION" (c12a7328-f81f-11d2-ba4b-00a0c93ec93b)
+Partition table entry:
+[binary data: 128 bytes]
+0000 | 28732ac1 1ff8d211 ba4b00a0 c93ec93b | b'(s*\xc1\x1f\xf8\xd2\x11\xbaK\x00\xa0\xc9>\xc9;'
+0010 | f016feab d7df9d47 93a76782 1caab591 | b'\xf0\x16\xfe\xab\xd7\xdf\x9dG\x93\xa7g\x82\x1c\xaa\xb5\x91'
+0020 | 00280000 00000000 ff770300 00000000 | b'\x00(\x00\x00\x00\x00\x00\x00\xffw\x03\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+Num partition slots used: 3
+Located 1 Linux filesystem partitions
+Has exactly 1 Linux filesystem = True
+
+Linux filesystem partition has unique ID b2e4a171-bfec-43f0-928d-f8fe44362f17
+Linux fileystem LBA range is 227328..25165790 (inclusive)
+Linux filesystem size is 12176 MiB
+Linux filesystem partition name is "" (these are usually empty)
+
+(API call: fetching EBS block 222...)
+Filesystem group0 first block is padding (zeroes) = True
+Filesystem group0 second block is padding (zeroes) = True
+Dump of first superblock:
+[binary data: 1024 bytes]
+0000 | 00a01700 fb902f00 00000000 d33f1f00 | b'\x00\xa0\x17\x00\xfb\x90/\x00\x00\x00\x00\x00\xd3?\x1f\x00'
+0010 | 40ce1500 00000000 02000000 02000000 | b'@\xce\x15\x00\x00\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00'
+0020 | 00800000 00800000 003f0000 09db4464 | b'\x00\x80\x00\x00\x00\x80\x00\x00\x00?\x00\x00\t\xdbDd'
+0030 | 4a661e64 0d00ffff 53ef0100 01000000 | b'Jf\x1ed\r\x00\xff\xffS\xef\x01\x00\x01\x00\x00\x00'
+0040 | 16661e64 00000000 00000000 01000000 | b'\x16f\x1ed\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00'
+0050 | 00000000 0b000000 00010000 3c000000 | b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00<\x00\x00\x00'
+0060 | c2020000 6b040000 cda0c0a7 e64a4413 | b'\xc2\x02\x00\x00k\x04\x00\x00\xcd\xa0\xc0\xa7\xe6JD\x13'
+0070 | 85a5a023 5f6f567f 636c6f75 64696d67 | b'\x85\xa5\xa0#_oV\x7fcloudimg'
+0080 | 2d726f6f 74667300 2f000000 00000000 | b'-rootfs\x00/\x00\x00\x00\x00\x00\x00\x00'
+0090 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 0000fe00 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfe\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 08000000 00000000 00000000 9bd70129 | b'\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9b\xd7\x01)'
+00f0 | c4144c45 b2550377 6fe70968 01014000 | b'\xc4\x14LE\xb2U\x03wo\xe7\th\x01\x01@\x00'
+0100 | 0c000000 00000000 41651e64 0af30100 | b'\x0c\x00\x00\x00\x00\x00\x00\x00Ae\x1ed\n\xf3\x01\x00'
+0110 | 04000000 00000000 00000000 00400000 | b'\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x00\x00'
+0120 | 00000400 00000000 00000000 00000000 | b'\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0130 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0140 | 00000000 00000000 00000000 00000004 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04'
+0150 | 00000000 00000000 00000000 20002000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00 \x00'
+0160 | 01000000 00000000 00000000 00000000 | b'\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0170 | 00000000 04010000 2d5d7700 00000000 | b'\x00\x00\x00\x00\x04\x01\x00\x00-]w\x00\x00\x00\x00\x00'
+0180 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0190 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+01f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0200 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0210 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0220 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0230 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0240 | 00000000 00000000 cac40100 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xca\xc4\x01\x00\x00\x00\x00\x00'
+0250 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0260 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0270 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0280 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0290 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+02a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+02b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+02c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+02d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+02e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+02f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0300 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0310 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0320 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0330 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0340 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0350 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0360 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0370 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0380 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0390 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+03a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+03b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+03c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+03d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+03e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+03f0 | 00000000 00000000 00000000 1d428590 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1dB\x85\x90'
+
+Filesystem superblock information:
+inodes count = 1548288
+blocks count = 3117307
+reserved blocks count = 0
+free blocks count = 2047955
+free inodes count = 1429056
+first data block = 0
+log2 of block size = 12 (size=4096)
+log2 of cluster size = 12 (size=4096)
+blocks per group = 32768
+clusters per group = 32768
+inodes per group = 16128
+mount time (epoch) = 1682234121
+write time (epoch) = 1679713866
+mount count = 13
+max mount count (advisory) = 65535
+magic bytestring = 0x53ef
+state = 1
+
+Superblock has magic bytes 0x53ef for an ext(2|3|4) filesystem = True
+
+first non-reserved inode = 11
+inode size = 256
+block group number = 0
+
+Compat features: 0x3c
+ ->   set: [HAS_JOURNAL, EXT_ATTR, RESIZE_INODE, DIR_INDEX]
+ -> clear: [DIR_PREALLOC, IMAGIC_INODES, LAZY_BG, EXCLUDE_INODE]
+Incompat features: 0x2c2
+ ->   set: [FILETYPE, EXTENTS, 64BIT, FLEX_BG]
+ -> clear: [COMPRESSION, RECOVER, JOURNAL_DEV, META_BG, MMP, EA_INODE, DIRDATA, CSUM_SEED, LARGEDIR, INLINE_DATA, ENCRYPT]
+Read-only compat features: 0x46b
+ ->   set: [SPARSE_SUPER, LARGE_FILE, INODE_HUGE_FILE, DIR_NLINK, EXTRA_ISIZE, METADATA_CSUM]
+ -> clear: [BTREE_DIR, GDT_CSUM, HAS_SNAPSHOT, QUOTA, BIGALLOC, REPLICA, READONLY, PROJECT]
+Has matching incompat feature flags = True
+Has expected ro_compat feature flags = True
+
+volume GUID = a7c0a0cd-4ae6-1344-85a5-a0235f6f567f
+volume name = b'cloudimg-rootfs\x00'
+volume last mount dir = b'/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+group descriptor size = 64
+Filesystem uses 64-byte GDTs = True
+
+log2 of flex group size = 4 (size=16)
+
+total number of block groups = 96
+
+Block group 0 descriptor:
+[binary data: 64 bytes]
+0000 | 01010000 11010000 21010000 b30f0000 | b'\x01\x01\x00\x00\x11\x01\x00\x00!\x01\x00\x00\xb3\x0f\x00\x00'
+0010 | ac050400 00000000 fa77f42b 000089f9 | b'\xac\x05\x04\x00\x00\x00\x00\x00\xfaw\xf4+\x00\x00\x89\xf9'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 9d95a114 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x9d\x95\xa1\x14\x00\x00\x00\x00'
+Group flags for group #0: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000000101
+inode bitmap ptr = 0x00000000000111
+inode table ptr = 0x00000000000121
+free blocks = 4019, free inodes = 0, used dirs = 1452
+Expected checksum = 0x0000f989, calculated checksum = 0xe5386a13
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <63881> but got <27155>
+
+Block group 1 descriptor:
+[binary data: 64 bytes]
+0000 | 02010000 12010000 11050000 75010100 | b'\x02\x01\x00\x00\x12\x01\x00\x00\x11\x05\x00\x00u\x01\x01\x00'
+0010 | ad050400 00000000 6331b710 0000d07b | b'\xad\x05\x04\x00\x00\x00\x00\x00c1\xb7\x10\x00\x00\xd0{'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 b9c2dde8 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xb9\xc2\xdd\xe8\x00\x00\x00\x00'
+Group flags for group #1: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000000102
+inode bitmap ptr = 0x00000000000112
+inode table ptr = 0x00000000000511
+free blocks = 373, free inodes = 1, used dirs = 1453
+Expected checksum = 0x00007bd0, calculated checksum = 0x585ee84a
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <31696> but got <59466>
+
+Block group 2 descriptor:
+[binary data: 64 bytes]
+0000 | 03010000 13010000 01090000 17019400 | b'\x03\x01\x00\x00\x13\x01\x00\x00\x01\t\x00\x00\x17\x01\x94\x00'
+0010 | ba020400 00000000 372a7793 000027a9 | b"\xba\x02\x04\x00\x00\x00\x00\x007*w\x93\x00\x00'\xa9"
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 faeae218 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xfa\xea\xe2\x18\x00\x00\x00\x00'
+Group flags for group #2: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000000103
+inode bitmap ptr = 0x00000000000113
+inode table ptr = 0x00000000000901
+free blocks = 279, free inodes = 148, used dirs = 698
+Expected checksum = 0x0000a927, calculated checksum = 0x32a33abd
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <43303> but got <15037>
+
+Block group 3 descriptor:
+[binary data: 64 bytes]
+0000 | 04010000 14010000 f10c0000 d8000000 | b'\x04\x01\x00\x00\x14\x01\x00\x00\xf1\x0c\x00\x00\xd8\x00\x00\x00'
+0010 | d50a0400 00000000 54eff42b 00001d62 | b'\xd5\n\x04\x00\x00\x00\x00\x00T\xef\xf4+\x00\x00\x1db'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 af2ba114 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xaf+\xa1\x14\x00\x00\x00\x00'
+Group flags for group #3: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000000104
+inode bitmap ptr = 0x00000000000114
+inode table ptr = 0x00000000000cf1
+free blocks = 216, free inodes = 0, used dirs = 2773
+Expected checksum = 0x0000621d, calculated checksum = 0x5c6df187
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <25117> but got <61831>
+
+Block group 4 descriptor:
+[binary data: 64 bytes]
+0000 | 05010000 15010000 e1100000 0100021c | b'\x05\x01\x00\x00\x15\x01\x00\x00\xe1\x10\x00\x00\x01\x00\x02\x1c'
+0010 | 01000400 00000000 edaf116e 8b1b0125 | b'\x01\x00\x04\x00\x00\x00\x00\x00\xed\xaf\x11n\x8b\x1b\x01%'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 41a24393 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00A\xa2C\x93\x00\x00\x00\x00'
+Group flags for group #4: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000000105
+inode bitmap ptr = 0x00000000000115
+inode table ptr = 0x000000000010e1
+free blocks = 1, free inodes = 7170, used dirs = 1
+Expected checksum = 0x00002501, calculated checksum = 0x31e1b69b
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <9473> but got <46747>
+
+Block group 5 descriptor:
+[binary data: 64 bytes]
+0000 | 06010000 16010000 d1140000 931c303a | b'\x06\x01\x00\x00\x16\x01\x00\x00\xd1\x14\x00\x00\x93\x1c0:'
+0010 | d0040400 00000000 62a2a3b3 4a39e61a | b'\xd0\x04\x04\x00\x00\x00\x00\x00b\xa2\xa3\xb3J9\xe6\x1a'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 f7fc6871 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xf7\xfchq\x00\x00\x00\x00'
+Group flags for group #5: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000000106
+inode bitmap ptr = 0x00000000000116
+inode table ptr = 0x000000000014d1
+free blocks = 7315, free inodes = 14896, used dirs = 1232
+Expected checksum = 0x00001ae6, calculated checksum = 0x39c7897c
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <6886> but got <35196>
+
+Block group 6 descriptor:
+[binary data: 64 bytes]
+0000 | 07010000 17010000 c1180000 c802003f | b'\x07\x01\x00\x00\x17\x01\x00\x00\xc1\x18\x00\x00\xc8\x02\x00?'
+0010 | 00000500 00000000 5bac0000 003ff915 | b'\x00\x00\x05\x00\x00\x00\x00\x00[\xac\x00\x00\x00?\xf9\x15'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 10c00000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x10\xc0\x00\x00\x00\x00\x00\x00'
+Group flags for group #6: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000000107
+inode bitmap ptr = 0x00000000000117
+inode table ptr = 0x000000000018c1
+free blocks = 712, free inodes = 16128, used dirs = 0
+Expected checksum = 0x000015f9, calculated checksum = 0xc1e28663
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <5625> but got <34403>
+
+Block group 7 descriptor:
+[binary data: 64 bytes]
+0000 | 08010000 18010000 b11c0000 330a003f | b'\x08\x01\x00\x00\x18\x01\x00\x00\xb1\x1c\x00\x003\n\x00?'
+0010 | 00000500 00000000 2a700000 003fb11e | b'\x00\x00\x05\x00\x00\x00\x00\x00*p\x00\x00\x00?\xb1\x1e'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 97a90000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x97\xa9\x00\x00\x00\x00\x00\x00'
+Group flags for group #7: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000000108
+inode bitmap ptr = 0x00000000000118
+inode table ptr = 0x00000000001cb1
+free blocks = 2611, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00001eb1, calculated checksum = 0x985d8d2b
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <7857> but got <36139>
+
+Block group 8 descriptor:
+[binary data: 64 bytes]
+0000 | 09010000 19010000 a1200000 e800003f | b'\t\x01\x00\x00\x19\x01\x00\x00\xa1 \x00\x00\xe8\x00\x00?'
+0010 | 00000500 00000000 ee550000 003f27b6 | b"\x00\x00\x05\x00\x00\x00\x00\x00\xeeU\x00\x00\x00?'\xb6"
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 c32d0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xc3-\x00\x00\x00\x00\x00\x00'
+Group flags for group #8: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000000109
+inode bitmap ptr = 0x00000000000119
+inode table ptr = 0x000000000020a1
+free blocks = 232, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000b627, calculated checksum = 0xcd4125bd
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <46631> but got <9661>
+
+Block group 9 descriptor:
+[binary data: 64 bytes]
+0000 | 0a010000 1a010000 91240000 5c49003f | b'\n\x01\x00\x00\x1a\x01\x00\x00\x91$\x00\x00\\I\x00?'
+0010 | 00000500 00000000 77ec0000 003f1563 | b'\x00\x00\x05\x00\x00\x00\x00\x00w\xec\x00\x00\x00?\x15c'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 9be80000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x9b\xe8\x00\x00\x00\x00\x00\x00'
+Group flags for group #9: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000000010a
+inode bitmap ptr = 0x0000000000011a
+inode table ptr = 0x00000000002491
+free blocks = 18780, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00006315, calculated checksum = 0x028ff08f
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <25365> but got <61583>
+
+Block group 10 descriptor:
+[binary data: 64 bytes]
+0000 | 0b010000 1b010000 81280000 bd0f003f | b'\x0b\x01\x00\x00\x1b\x01\x00\x00\x81(\x00\x00\xbd\x0f\x00?'
+0010 | 00000500 00000000 e5240000 003f19fe | b'\x00\x00\x05\x00\x00\x00\x00\x00\xe5$\x00\x00\x00?\x19\xfe'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 2b8b0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00+\x8b\x00\x00\x00\x00\x00\x00'
+Group flags for group #10: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000000010b
+inode bitmap ptr = 0x0000000000011b
+inode table ptr = 0x00000000002881
+free blocks = 4029, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000fe19, calculated checksum = 0x66ac6d83
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <65049> but got <28035>
+
+Block group 11 descriptor:
+[binary data: 64 bytes]
+0000 | 0c010000 1c010000 712c0000 bc00003f | b'\x0c\x01\x00\x00\x1c\x01\x00\x00q,\x00\x00\xbc\x00\x00?'
+0010 | 00000500 00000000 a1cd0000 003fd54b | b'\x00\x00\x05\x00\x00\x00\x00\x00\xa1\xcd\x00\x00\x00?\xd5K'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 b5ba0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xb5\xba\x00\x00\x00\x00\x00\x00'
+Group flags for group #11: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000000010c
+inode bitmap ptr = 0x0000000000011c
+inode table ptr = 0x00000000002c71
+free blocks = 188, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00004bd5, calculated checksum = 0xb071d84f
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <19413> but got <55375>
+
+Block group 12 descriptor:
+[binary data: 64 bytes]
+0000 | 0d010000 1d010000 61300000 0a18003f | b'\r\x01\x00\x00\x1d\x01\x00\x00a0\x00\x00\n\x18\x00?'
+0010 | 00000500 00000000 cc390000 003ff16f | b'\x00\x00\x05\x00\x00\x00\x00\x00\xcc9\x00\x00\x00?\xf1o'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 211d0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00!\x1d\x00\x00\x00\x00\x00\x00'
+Group flags for group #12: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000000010d
+inode bitmap ptr = 0x0000000000011d
+inode table ptr = 0x00000000003061
+free blocks = 6154, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00006ff1, calculated checksum = 0xcb69fc6b
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <28657> but got <64619>
+
+Block group 13 descriptor:
+[binary data: 64 bytes]
+0000 | 0e010000 1e010000 51340000 8c0e003f | b'\x0e\x01\x00\x00\x1e\x01\x00\x00Q4\x00\x00\x8c\x0e\x00?'
+0010 | 00000500 00000000 943e0000 003f28ed | b'\x00\x00\x05\x00\x00\x00\x00\x00\x94>\x00\x00\x00?(\xed'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 60f50000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00`\xf5\x00\x00\x00\x00\x00\x00'
+Group flags for group #13: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000000010e
+inode bitmap ptr = 0x0000000000011e
+inode table ptr = 0x00000000003451
+free blocks = 3724, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000ed28, calculated checksum = 0xf2a87eb2
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <60712> but got <32434>
+
+Block group 14 descriptor:
+[binary data: 64 bytes]
+0000 | 0f010000 1f010000 41380000 1e24003f | b'\x0f\x01\x00\x00\x1f\x01\x00\x00A8\x00\x00\x1e$\x00?'
+0010 | 00000500 00000000 0de00000 003fa4b2 | b'\x00\x00\x05\x00\x00\x00\x00\x00\r\xe0\x00\x00\x00?\xa4\xb2'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 07ef0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x07\xef\x00\x00\x00\x00\x00\x00'
+Group flags for group #14: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000000010f
+inode bitmap ptr = 0x0000000000011f
+inode table ptr = 0x00000000003841
+free blocks = 9246, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000b2a4, calculated checksum = 0xc251213e
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <45732> but got <8510>
+
+Block group 15 descriptor:
+[binary data: 64 bytes]
+0000 | 10010000 20010000 313c0000 dd02003f | b'\x10\x01\x00\x00 \x01\x00\x001<\x00\x00\xdd\x02\x00?'
+0010 | 00000500 00000000 afef0000 003fc2cd | b'\x00\x00\x05\x00\x00\x00\x00\x00\xaf\xef\x00\x00\x00?\xc2\xcd'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 d9f80000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xd9\xf8\x00\x00\x00\x00\x00\x00'
+Group flags for group #15: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000000110
+inode bitmap ptr = 0x00000000000120
+inode table ptr = 0x00000000003c31
+free blocks = 733, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000cdc2, calculated checksum = 0xccfb5e58
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <52674> but got <24152>
+
+Block group 16 descriptor:
+[binary data: 64 bytes]
+0000 | 00000800 10000800 20000800 99384709 | b'\x00\x00\x08\x00\x10\x00\x08\x00 \x00\x08\x00\x998G\t'
+0010 | 13080400 00000000 bed3feac 3c09f19e | b'\x13\x08\x04\x00\x00\x00\x00\x00\xbe\xd3\xfe\xac<\t\xf1\x9e'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 27cc2c37 00000000 | b"\x00\x00\x00\x00\x00\x00\x00\x00'\xcc,7\x00\x00\x00\x00"
+Group flags for group #16: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000080000
+inode bitmap ptr = 0x00000000080010
+inode table ptr = 0x00000000080020
+free blocks = 14489, free inodes = 2375, used dirs = 2067
+Expected checksum = 0x00009ef1, calculated checksum = 0x1a640d6b
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <40689> but got <3435>
+
+Block group 17 descriptor:
+[binary data: 64 bytes]
+0000 | 01000800 11000800 10040800 200b003f | b'\x01\x00\x08\x00\x11\x00\x08\x00\x10\x04\x08\x00 \x0b\x00?'
+0010 | 00000500 00000000 36d20000 003f95b1 | b'\x00\x00\x05\x00\x00\x00\x00\x006\xd2\x00\x00\x00?\x95\xb1'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 c7b00000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xc7\xb0\x00\x00\x00\x00\x00\x00'
+Group flags for group #17: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080001
+inode bitmap ptr = 0x00000000080011
+inode table ptr = 0x00000000080410
+free blocks = 2848, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000b195, calculated checksum = 0x86b3220f
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <45461> but got <8719>
+
+Block group 18 descriptor:
+[binary data: 64 bytes]
+0000 | 02000800 12000800 00080800 8001003f | b'\x02\x00\x08\x00\x12\x00\x08\x00\x00\x08\x08\x00\x80\x01\x00?'
+0010 | 00000500 00000000 f5330000 003f1328 | b'\x00\x00\x05\x00\x00\x00\x00\x00\xf53\x00\x00\x00?\x13('
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 69e10000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00i\xe1\x00\x00\x00\x00\x00\x00'
+Group flags for group #18: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080002
+inode bitmap ptr = 0x00000000080012
+inode table ptr = 0x00000000080800
+free blocks = 384, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00002813, calculated checksum = 0x00aabb89
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <10259> but got <48009>
+
+Block group 19 descriptor:
+[binary data: 64 bytes]
+0000 | 03000800 13000800 f00b0800 3400003f | b'\x03\x00\x08\x00\x13\x00\x08\x00\xf0\x0b\x08\x004\x00\x00?'
+0010 | 00000500 00000000 456d0000 003f4db5 | b'\x00\x00\x05\x00\x00\x00\x00\x00Em\x00\x00\x00?M\xb5'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 fd320000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xfd2\x00\x00\x00\x00\x00\x00'
+Group flags for group #19: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080003
+inode bitmap ptr = 0x00000000080013
+inode table ptr = 0x00000000080bf0
+free blocks = 52, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000b54d, calculated checksum = 0xba6e26d7
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <46413> but got <9943>
+
+Block group 20 descriptor:
+[binary data: 64 bytes]
+0000 | 04000800 14000800 e00f0800 5403003f | b'\x04\x00\x08\x00\x14\x00\x08\x00\xe0\x0f\x08\x00T\x03\x00?'
+0010 | 00000500 00000000 fb0a0000 003f9868 | b'\x00\x00\x05\x00\x00\x00\x00\x00\xfb\n\x00\x00\x00?\x98h'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 d8b30000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xd8\xb3\x00\x00\x00\x00\x00\x00'
+Group flags for group #20: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080004
+inode bitmap ptr = 0x00000000080014
+inode table ptr = 0x00000000080fe0
+free blocks = 852, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00006898, calculated checksum = 0x4358fb02
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <26776> but got <64258>
+
+Block group 21 descriptor:
+[binary data: 64 bytes]
+0000 | 05000800 15000800 d0130800 e804003f | b'\x05\x00\x08\x00\x15\x00\x08\x00\xd0\x13\x08\x00\xe8\x04\x00?'
+0010 | 00000500 00000000 68570000 003f25e7 | b'\x00\x00\x05\x00\x00\x00\x00\x00hW\x00\x00\x00?%\xe7'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 d4280000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xd4(\x00\x00\x00\x00\x00\x00'
+Group flags for group #21: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080005
+inode bitmap ptr = 0x00000000080015
+inode table ptr = 0x000000000813d0
+free blocks = 1256, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000e725, calculated checksum = 0x509874bf
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <59173> but got <29887>
+
+Block group 22 descriptor:
+[binary data: 64 bytes]
+0000 | 06000800 16000800 c0170800 6c02003f | b'\x06\x00\x08\x00\x16\x00\x08\x00\xc0\x17\x08\x00l\x02\x00?'
+0010 | 00000500 00000000 eea40000 003f64f3 | b'\x00\x00\x05\x00\x00\x00\x00\x00\xee\xa4\x00\x00\x00?d\xf3'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 ca4c0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xcaL\x00\x00\x00\x00\x00\x00'
+Group flags for group #22: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080006
+inode bitmap ptr = 0x00000000080016
+inode table ptr = 0x000000000817c0
+free blocks = 620, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000f364, calculated checksum = 0xd1df60fe
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <62308> but got <24830>
+
+Block group 23 descriptor:
+[binary data: 64 bytes]
+0000 | 07000800 17000800 b01b0800 b408003f | b'\x07\x00\x08\x00\x17\x00\x08\x00\xb0\x1b\x08\x00\xb4\x08\x00?'
+0010 | 00000500 00000000 09be0000 003f3023 | b'\x00\x00\x05\x00\x00\x00\x00\x00\t\xbe\x00\x00\x00?0#'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 d2ff0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xd2\xff\x00\x00\x00\x00\x00\x00'
+Group flags for group #23: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080007
+inode bitmap ptr = 0x00000000080017
+inode table ptr = 0x00000000081bb0
+free blocks = 2228, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00002330, calculated checksum = 0x54a3b0aa
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <9008> but got <45226>
+
+Block group 24 descriptor:
+[binary data: 64 bytes]
+0000 | 08000800 18000800 a01f0800 3e03003f | b'\x08\x00\x08\x00\x18\x00\x08\x00\xa0\x1f\x08\x00>\x03\x00?'
+0010 | 00000500 00000000 c19c0000 003fbd69 | b'\x00\x00\x05\x00\x00\x00\x00\x00\xc1\x9c\x00\x00\x00?\xbdi'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 dec70000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xde\xc7\x00\x00\x00\x00\x00\x00'
+Group flags for group #24: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080008
+inode bitmap ptr = 0x00000000080018
+inode table ptr = 0x00000000081fa0
+free blocks = 830, free inodes = 16128, used dirs = 0
+Expected checksum = 0x000069bd, calculated checksum = 0x085efa27
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <27069> but got <64039>
+
+Block group 25 descriptor:
+[binary data: 64 bytes]
+0000 | 09000800 19000800 90230800 c700003f | b'\t\x00\x08\x00\x19\x00\x08\x00\x90#\x08\x00\xc7\x00\x00?'
+0010 | 00000500 00000000 12a90000 003f9217 | b'\x00\x00\x05\x00\x00\x00\x00\x00\x12\xa9\x00\x00\x00?\x92\x17'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 bf2d0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xbf-\x00\x00\x00\x00\x00\x00'
+Group flags for group #25: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000080009
+inode bitmap ptr = 0x00000000080019
+inode table ptr = 0x00000000082390
+free blocks = 199, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00001792, calculated checksum = 0x72868408
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <6034> but got <33800>
+
+Block group 26 descriptor:
+[binary data: 64 bytes]
+0000 | 0a000800 1a000800 80270800 b00f003f | b"\n\x00\x08\x00\x1a\x00\x08\x00\x80'\x08\x00\xb0\x0f\x00?"
+0010 | 00000500 00000000 b3e30000 003f5bdb | b'\x00\x00\x05\x00\x00\x00\x00\x00\xb3\xe3\x00\x00\x00?[\xdb'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 64380000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00d8\x00\x00\x00\x00\x00\x00'
+Group flags for group #26: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000008000a
+inode bitmap ptr = 0x0000000008001a
+inode table ptr = 0x00000000082780
+free blocks = 4016, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000db5b, calculated checksum = 0xfe3d48c1
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <56155> but got <18625>
+
+Block group 27 descriptor:
+[binary data: 64 bytes]
+0000 | 0b000800 1b000800 702b0800 ff7e003f | b'\x0b\x00\x08\x00\x1b\x00\x08\x00p+\x08\x00\xff~\x00?'
+0010 | 00000500 00000000 15690000 003f81f3 | b'\x00\x00\x05\x00\x00\x00\x00\x00\x15i\x00\x00\x00?\x81\xf3'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 d8500000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xd8P\x00\x00\x00\x00\x00\x00'
+Group flags for group #27: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000008000b
+inode bitmap ptr = 0x0000000008001b
+inode table ptr = 0x00000000082b70
+free blocks = 32511, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000f381, calculated checksum = 0xca60601b
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <62337> but got <24603>
+
+Block group 31 descriptor:
+[binary data: 64 bytes]
+0000 | 0f000800 1f000800 303b0800 900d003f | b'\x0f\x00\x08\x00\x1f\x00\x08\x000;\x08\x00\x90\r\x00?'
+0010 | 00000500 00000000 38ff0000 003f5a4e | b'\x00\x00\x05\x00\x00\x00\x00\x008\xff\x00\x00\x00?ZN'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 9d600000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x9d`\x00\x00\x00\x00\x00\x00'
+Group flags for group #31: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000008000f
+inode bitmap ptr = 0x0000000008001f
+inode table ptr = 0x00000000083b30
+free blocks = 3472, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00004e5a, calculated checksum = 0x25f5ddc0
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <20058> but got <56768>
+
+Block group 32 descriptor:
+[binary data: 64 bytes]
+0000 | 00001000 10001000 20001000 6d2a1b00 | b'\x00\x00\x10\x00\x10\x00\x10\x00 \x00\x10\x00m*\x1b\x00'
+0010 | 9e0c0400 00000000 9863af2d 000021c9 | b'\x9e\x0c\x04\x00\x00\x00\x00\x00\x98c\xaf-\x00\x00!\xc9'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 e3891ea7 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xe3\x89\x1e\xa7\x00\x00\x00\x00'
+Group flags for group #32: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000100000
+inode bitmap ptr = 0x00000000100010
+inode table ptr = 0x00000000100020
+free blocks = 10861, free inodes = 27, used dirs = 3230
+Expected checksum = 0x0000c921, calculated checksum = 0x0f815abb
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <51489> but got <23227>
+
+Block group 33 descriptor:
+[binary data: 64 bytes]
+0000 | 01001000 11001000 10041000 53291705 | b'\x01\x00\x10\x00\x11\x00\x10\x00\x10\x04\x10\x00S)\x17\x05'
+0010 | f3030400 00000000 128c34ff cd024a90 | b'\xf3\x03\x04\x00\x00\x00\x00\x00\x12\x8c4\xff\xcd\x02J\x90'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 2583aea1 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00%\x83\xae\xa1\x00\x00\x00\x00'
+Group flags for group #33: 0x4
+ ->   set: [INODE_ZEROED]
+block bitmap ptr = 0x00000000100001
+inode bitmap ptr = 0x00000000100011
+inode table ptr = 0x00000000100410
+free blocks = 10579, free inodes = 1303, used dirs = 1011
+Expected checksum = 0x0000904a, calculated checksum = 0x72bc03d0
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <36938> but got <976>
+
+Block group 45 descriptor:
+[binary data: 64 bytes]
+0000 | 0d001000 1d001000 50331000 667f003f | b'\r\x00\x10\x00\x1d\x00\x10\x00P3\x10\x00f\x7f\x00?'
+0010 | 00000500 00000000 80750000 003fcaf2 | b'\x00\x00\x05\x00\x00\x00\x00\x00\x80u\x00\x00\x00?\xca\xf2'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 bc520000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xbcR\x00\x00\x00\x00\x00\x00'
+Group flags for group #45: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000010000d
+inode bitmap ptr = 0x0000000010001d
+inode table ptr = 0x00000000103350
+free blocks = 32614, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000f2ca, calculated checksum = 0x74ac6150
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <62154> but got <24912>
+
+Block group 46 descriptor:
+[binary data: 64 bytes]
+0000 | 0e001000 1e001000 40371000 5f77003f | b'\x0e\x00\x10\x00\x1e\x00\x10\x00@7\x10\x00_w\x00?'
+0010 | 00000500 00000000 79ec0000 003fa04e | b'\x00\x00\x05\x00\x00\x00\x00\x00y\xec\x00\x00\x00?\xa0N'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 ad630000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xadc\x00\x00\x00\x00\x00\x00'
+Group flags for group #46: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000010000e
+inode bitmap ptr = 0x0000000010001e
+inode table ptr = 0x00000000103740
+free blocks = 30559, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00004ea0, calculated checksum = 0x9673dd3a
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <20128> but got <56634>
+
+Block group 47 descriptor:
+[binary data: 64 bytes]
+0000 | 0f001000 1f001000 303b1000 461e003f | b'\x0f\x00\x10\x00\x1f\x00\x10\x000;\x10\x00F\x1e\x00?'
+0010 | 00000500 00000000 778f0000 003fe43e | b'\x00\x00\x05\x00\x00\x00\x00\x00w\x8f\x00\x00\x00?\xe4>'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 25810000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00%\x81\x00\x00\x00\x00\x00\x00'
+Group flags for group #47: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000010000f
+inode bitmap ptr = 0x0000000010001f
+inode table ptr = 0x00000000103b30
+free blocks = 7750, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00003ee4, calculated checksum = 0x5beaad7e
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <16100> but got <44414>
+
+Block group 48 descriptor:
+[binary data: 64 bytes]
+0000 | 00001800 10001800 20001800 e040003f | b'\x00\x00\x18\x00\x10\x00\x18\x00 \x00\x18\x00\xe0@\x00?'
+0010 | 00000500 00000000 58860000 003fe34e | b'\x00\x00\x05\x00\x00\x00\x00\x00X\x86\x00\x00\x00?\xe3N'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 ad7a0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xadz\x00\x00\x00\x00\x00\x00'
+Group flags for group #48: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000180000
+inode bitmap ptr = 0x00000000180010
+inode table ptr = 0x00000000180020
+free blocks = 16608, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00004ee3, calculated checksum = 0x64afdd79
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <20195> but got <56697>
+
+Block group 49 descriptor:
+[binary data: 64 bytes]
+0000 | 01001800 11001800 10041800 ff7e003f | b'\x01\x00\x18\x00\x11\x00\x18\x00\x10\x04\x18\x00\xff~\x00?'
+0010 | 00000500 00000000 15690000 003fc284 | b'\x00\x00\x05\x00\x00\x00\x00\x00\x15i\x00\x00\x00?\xc2\x84'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 d8500000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xd8P\x00\x00\x00\x00\x00\x00'
+Group flags for group #49: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000180001
+inode bitmap ptr = 0x00000000180011
+inode table ptr = 0x00000000180410
+free blocks = 32511, free inodes = 16128, used dirs = 0
+Expected checksum = 0x000084c2, calculated checksum = 0xcc991758
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <33986> but got <5976>
+
+Block group 62 descriptor:
+[binary data: 64 bytes]
+0000 | 0e001800 1e001800 40371800 6106003f | b'\x0e\x00\x18\x00\x1e\x00\x18\x00@7\x18\x00a\x06\x00?'
+0010 | 00000500 00000000 c1cb0000 003f9af9 | b'\x00\x00\x05\x00\x00\x00\x00\x00\xc1\xcb\x00\x00\x00?\x9a\xf9'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 c3a80000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xc3\xa8\x00\x00\x00\x00\x00\x00'
+Group flags for group #62: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000018000e
+inode bitmap ptr = 0x0000000018001e
+inode table ptr = 0x00000000183740
+free blocks = 1633, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000f99a, calculated checksum = 0xca116a00
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <63898> but got <27136>
+
+Block group 63 descriptor:
+[binary data: 64 bytes]
+0000 | 0f001800 1f001800 303b1800 6333003f | b'\x0f\x00\x18\x00\x1f\x00\x18\x000;\x18\x00c3\x00?'
+0010 | 00000500 00000000 05820000 003f70ee | b'\x00\x00\x05\x00\x00\x00\x00\x00\x05\x82\x00\x00\x00?p\xee'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 bbea0000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xbb\xea\x00\x00\x00\x00\x00\x00'
+Group flags for group #63: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000018000f
+inode bitmap ptr = 0x0000000018001f
+inode table ptr = 0x00000000183b30
+free blocks = 13155, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000ee70, calculated checksum = 0x82777dea
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <61040> but got <32234>
+
+Block group 64 descriptor:
+[binary data: 64 bytes]
+0000 | 00002000 10002000 20002000 e020003f | b'\x00\x00 \x00\x10\x00 \x00 \x00 \x00\xe0 \x00?'
+0010 | 00000500 00000000 375bb6dd 003fb1e0 | b'\x00\x00\x05\x00\x00\x00\x00\x007[\xb6\xdd\x00?\xb1\xe0'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 4c981432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00L\x98\x142\x00\x00\x00\x00'
+Group flags for group #64: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000200000
+inode bitmap ptr = 0x00000000200010
+inode table ptr = 0x00000000200020
+free blocks = 8416, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000e0b1, calculated checksum = 0xd0cf732b
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <57521> but got <29483>
+
+Block group 65 descriptor:
+[binary data: 64 bytes]
+0000 | 01002000 11002000 10042000 9f48003f | b'\x01\x00 \x00\x11\x00 \x00\x10\x04 \x00\x9fH\x00?'
+0010 | 00000500 00000000 d35eb6dd 003f787b | b'\x00\x00\x05\x00\x00\x00\x00\x00\xd3^\xb6\xdd\x00?x{'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 70b81432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00p\xb8\x142\x00\x00\x00\x00'
+Group flags for group #65: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000200001
+inode bitmap ptr = 0x00000000200011
+inode table ptr = 0x00000000200410
+free blocks = 18591, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00007b78, calculated checksum = 0x4e73e8e2
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <31608> but got <59618>
+
+Block group 79 descriptor:
+[binary data: 64 bytes]
+0000 | 0f002000 1f002000 303b2000 5717003f | b'\x0f\x00 \x00\x1f\x00 \x000; \x00W\x17\x00?'
+0010 | 00000500 00000000 11aeb6dd 003fe4fb | b'\x00\x00\x05\x00\x00\x00\x00\x00\x11\xae\xb6\xdd\x00?\xe4\xfb'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 9a411432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x9aA\x142\x00\x00\x00\x00'
+Group flags for group #79: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000020000f
+inode bitmap ptr = 0x0000000020001f
+inode table ptr = 0x00000000203b30
+free blocks = 5975, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000fbe4, calculated checksum = 0xc586687e
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <64484> but got <26750>
+
+Block group 80 descriptor:
+[binary data: 64 bytes]
+0000 | 00002800 10002800 20002800 e040003f | b'\x00\x00(\x00\x10\x00(\x00 \x00(\x00\xe0@\x00?'
+0010 | 00000500 00000000 5886b6dd 003f733e | b'\x00\x00\x05\x00\x00\x00\x00\x00X\x86\xb6\xdd\x00?s>'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 ad7a1432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\xadz\x142\x00\x00\x00\x00'
+Group flags for group #80: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x00000000280000
+inode bitmap ptr = 0x00000000280010
+inode table ptr = 0x00000000280020
+free blocks = 16608, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00003e73, calculated checksum = 0xe13cade9
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <15987> but got <44521>
+
+Block group 92 descriptor:
+[binary data: 64 bytes]
+0000 | 0c002800 1c002800 602f2800 097e003f | b'\x0c\x00(\x00\x1c\x00(\x00`/(\x00\t~\x00?'
+0010 | 00000500 00000000 4adeb6dd 003fb500 | b'\x00\x00\x05\x00\x00\x00\x00\x00J\xde\xb6\xdd\x00?\xb5\x00'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 592d1432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00Y-\x142\x00\x00\x00\x00'
+Group flags for group #92: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000028000c
+inode bitmap ptr = 0x0000000028001c
+inode table ptr = 0x00000000282f60
+free blocks = 32265, free inodes = 16128, used dirs = 0
+Expected checksum = 0x000000b5, calculated checksum = 0xa61e932f
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <181> but got <37679>
+
+Block group 93 descriptor:
+[binary data: 64 bytes]
+0000 | 0d002800 1d002800 50332800 cf48003f | b'\r\x00(\x00\x1d\x00(\x00P3(\x00\xcfH\x00?'
+0010 | 00000500 00000000 6ea2b6dd 003f04fc | b'\x00\x00\x05\x00\x00\x00\x00\x00n\xa2\xb6\xdd\x00?\x04\xfc'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 5f941432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00_\x94\x142\x00\x00\x00\x00'
+Group flags for group #93: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000028000d
+inode bitmap ptr = 0x0000000028001d
+inode table ptr = 0x00000000283350
+free blocks = 18639, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000fc04, calculated checksum = 0x43436f9e
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <64516> but got <28574>
+
+Block group 94 descriptor:
+[binary data: 64 bytes]
+0000 | 0e002800 1e002800 40372800 7c74003f | b'\x0e\x00(\x00\x1e\x00(\x00@7(\x00|t\x00?'
+0010 | 00000500 00000000 f44bb6dd 003fdbe1 | b'\x00\x00\x05\x00\x00\x00\x00\x00\xf4K\xb6\xdd\x00?\xdb\xe1'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 3cf21432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00<\xf2\x142\x00\x00\x00\x00'
+Group flags for group #94: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000028000e
+inode bitmap ptr = 0x0000000028001e
+inode table ptr = 0x00000000283740
+free blocks = 29820, free inodes = 16128, used dirs = 0
+Expected checksum = 0x0000e1db, calculated checksum = 0x4ddc7241
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <57819> but got <29249>
+
+Block group 95 descriptor:
+[binary data: 64 bytes]
+0000 | 0f002800 1f002800 303b2800 5b03003f | b'\x0f\x00(\x00\x1f\x00(\x000;(\x00[\x03\x00?'
+0010 | 00000500 00000000 1144b6dd 003f1689 | b'\x00\x00\x05\x00\x00\x00\x00\x00\x11D\xb6\xdd\x00?\x16\x89'
+0020 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0030 | 00000000 00000000 3f131432 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00?\x13\x142\x00\x00\x00\x00'
+Group flags for group #95: 0x5
+ ->   set: [INODE_UNINIT, INODE_ZEROED]
+block bitmap ptr = 0x0000000028000f
+inode bitmap ptr = 0x0000000028001f
+inode table ptr = 0x00000000283b30
+free blocks = 859, free inodes = 16128, used dirs = 0
+Expected checksum = 0x00008916, calculated checksum = 0x46c71a8c
+GDT has expected checksum = False
+Warning: Assertion failed! Expected <35094> but got <6796>
+get_inode(2): index is 1 in block group 0
+get_inode(2): byte offset is 256 (length=256) in block 0 relative to table
+(API call: fetching EBS block 224...)
+get_inode(2): exact filesystem block is 289 (289 + 0)
+
+inode 2 descriptor data
+[binary data: 256 bytes]
+0000 | ed410000 00100000 0ddb4464 0ddb4464 | b'\xedA\x00\x00\x00\x10\x00\x00\r\xdbDd\r\xdbDd'
+0010 | 0ddb4464 00000000 00001300 08000000 | b'\r\xdbDd\x00\x00\x00\x00\x00\x00\x13\x00\x08\x00\x00\x00'
+0020 | 00000800 30000000 0af30100 04000000 | b'\x00\x00\x08\x000\x00\x00\x00\n\xf3\x01\x00\x04\x00\x00\x00'
+0030 | 00000000 00000000 01000000 21400000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00!@\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 c0c60000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc0\xc6\x00\x00'
+0080 | 20005189 189adb69 189adb69 aca9e4a4 | b' \x00Q\x89\x18\x9a\xdbi\x18\x9a\xdbi\xac\xa9\xe4\xa4'
+0090 | 41651e64 00000000 00000000 00000000 | b'Ae\x1ed\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+inode 2 flags: 0x80000
+ ->   set: [EXTENTS]
+ -> clear: [SECRM, UNRM, COMPR, SYNC, IMMUTABLE, APPEND, NODUMP, NOATIME, DIRTY, COMPRBLK, NOCOMPR, ENCRYPT, INDEX, IMAGIC, JOURNAL_DATA, NOTAIL, DIRSYNC, TOPDIR, HUGE_FILE, EA_INODE, EOFBLOCKS, SNAPFILE, SNAPFILE_DELETED, SNAPFILE_SHRUNK, INLINE_DATA, PROJINHERIT, RESERVED]
+inode 2 size = 4096
+inode 2 permissions = 0755, file type = 0x4000 (FDIR)
+inode 2 has expected ftype "FDIR" = True
+inode 2 uses extents = True
+Extent header magic = 0xf30a
+Extent header num entries = 1
+Extent header max entries = 4
+Extent header depth = 0
+Extent header has magic number 0xf30a as first bytes = True
+
+Extent entry 0:
+[binary data: 12 bytes]
+0000 | 00000000 01000000 21400000 | b'\x00\x00\x00\x00\x01\x00\x00\x00!@\x00\x00'
+Extent (leaf) starting file block number = 0
+Extent (leaf) is initialized = True
+Extent (leaf) real length (blocks) = 1
+Extent (leaf) starting data block number = 16417
+Extent (leaf) is initialized = True
+Copying 4096 bytes into offset 0x000000000000 from filestystem block 16417
+(API call: fetching EBS block 350...)
+
+Parsing 4096 bytes of directory content
+dirent (offset 0): inode = 2, lengths = 12:1, type = 2 (Directory)
+dirent name = "."
+dirent (offset 12): inode = 2, lengths = 12:2, type = 2 (Directory)
+dirent name = ".."
+dirent (offset 24): inode = 11, lengths = 20:10, type = 2 (Directory)
+dirent name = "lost+found"
+dirent (offset 44): inode = 12, lengths = 12:3, type = 7 (Symbolic link)
+dirent name = "bin"
+dirent (offset 56): inode = 13, lengths = 12:4, type = 2 (Directory)
+dirent name = "boot"
+dirent (offset 68): inode = 26, lengths = 12:3, type = 2 (Directory)
+dirent name = "dev"
+dirent (offset 80): inode = 41, lengths = 12:3, type = 2 (Directory)
+dirent name = "etc"
+dirent (offset 92): inode = 1493, lengths = 12:4, type = 2 (Directory)
+dirent name = "home"
+dirent (offset 104): inode = 1494, lengths = 12:3, type = 7 (Symbolic link)
+dirent name = "lib"
+dirent (offset 116): inode = 1495, lengths = 16:5, type = 7 (Symbolic link)
+dirent name = "lib32"
+dirent (offset 132): inode = 1496, lengths = 16:5, type = 7 (Symbolic link)
+dirent name = "lib64"
+dirent (offset 148): inode = 1497, lengths = 16:6, type = 7 (Symbolic link)
+dirent name = "libx32"
+dirent (offset 164): inode = 1498, lengths = 16:5, type = 2 (Directory)
+dirent name = "media"
+dirent (offset 180): inode = 1499, lengths = 12:3, type = 2 (Directory)
+dirent name = "mnt"
+dirent (offset 192): inode = 1500, lengths = 12:3, type = 2 (Directory)
+dirent name = "opt"
+dirent (offset 204): inode = 1501, lengths = 12:4, type = 2 (Directory)
+dirent name = "proc"
+dirent (offset 216): inode = 1502, lengths = 12:4, type = 2 (Directory)
+dirent name = "root"
+dirent (offset 228): inode = 1505, lengths = 12:3, type = 2 (Directory)
+dirent name = "run"
+dirent (offset 240): inode = 1510, lengths = 12:4, type = 7 (Symbolic link)
+dirent name = "sbin"
+dirent (offset 252): inode = 390, lengths = 12:4, type = 2 (Directory)
+dirent name = "snap"
+dirent (offset 264): inode = 1531, lengths = 12:3, type = 2 (Directory)
+dirent name = "srv"
+dirent (offset 276): inode = 1532, lengths = 12:3, type = 2 (Directory)
+dirent name = "sys"
+dirent (offset 288): inode = 1533, lengths = 12:3, type = 2 (Directory)
+dirent name = "tmp"
+dirent (offset 300): inode = 1534, lengths = 12:3, type = 2 (Directory)
+dirent name = "usr"
+dirent (offset 312): inode = 69135, lengths = 3772:3, type = 2 (Directory)
+dirent name = "var"
+dirent (offset 4084): inode = 0, lengths = 12:0, type = 222 ([checksum])
+Fake checksum dirent has inode==0 = True
+Fake checksum dirent has 12-byte record length = True
+Fake checksum dirent has 0-length name = True
+Checksum value = 0x9a66b4de
+Not adding dirent to results since it has a 0 inode value
+
+At inode 2 (/)
+> ls
+
+"." (Directory, inode 2)
+".." (Directory, inode 2)
+"bin" (Symbolic link, inode 12)
+"boot" (Directory, inode 13)
+"dev" (Directory, inode 26)
+"etc" (Directory, inode 41)
+"home" (Directory, inode 1493)
+"lib" (Symbolic link, inode 1494)
+"lib32" (Symbolic link, inode 1495)
+"lib64" (Symbolic link, inode 1496)
+"libx32" (Symbolic link, inode 1497)
+"lost+found" (Directory, inode 11)
+"media" (Directory, inode 1498)
+"mnt" (Directory, inode 1499)
+"opt" (Directory, inode 1500)
+"proc" (Directory, inode 1501)
+"root" (Directory, inode 1502)
+"run" (Directory, inode 1505)
+"sbin" (Symbolic link, inode 1510)
+"snap" (Directory, inode 390)
+"srv" (Directory, inode 1531)
+"sys" (Directory, inode 1532)
+"tmp" (Directory, inode 1533)
+"usr" (Directory, inode 1534)
+"var" (Directory, inode 69135)
+
+At inode 2 (/)
+> cd etc
+
+get_inode(41): index is 40 in block group 0
+get_inode(41): byte offset is 2048 (length=256) in block 2 relative to table
+get_inode(41): exact filesystem block is 291 (289 + 2)
+
+inode 41 descriptor data
+[binary data: 256 bytes]
+0000 | ed410000 00100000 12b33b64 4ff33064 | b'\xedA\x00\x00\x00\x10\x00\x00\x12\xb3;dO\xf30d'
+0010 | 4ff33064 00000000 00006500 08000000 | b'O\xf30d\x00\x00\x00\x00\x00\x00e\x00\x08\x00\x00\x00'
+0020 | 00000800 ac010000 0af30100 04000000 | b'\x00\x00\x08\x00\xac\x01\x00\x00\n\xf3\x01\x00\x04\x00\x00\x00'
+0030 | 00000000 00000000 01000000 2c400000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00,@\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 b8dbd808 00000000 00000000 | b'\x00\x00\x00\x00\xb8\xdb\xd8\x08\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 e5650000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe5e\x00\x00'
+0080 | 20000534 d8488886 d8488886 58d36b58 | b' \x00\x054\xd8H\x88\x86\xd8H\x88\x86X\xd3kX'
+0090 | 41651e64 48e4bf1b 00000000 00000000 | b'Ae\x1edH\xe4\xbf\x1b\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+inode 41 flags: 0x80000
+ ->   set: [EXTENTS]
+ -> clear: [SECRM, UNRM, COMPR, SYNC, IMMUTABLE, APPEND, NODUMP, NOATIME, DIRTY, COMPRBLK, NOCOMPR, ENCRYPT, INDEX, IMAGIC, JOURNAL_DATA, NOTAIL, DIRSYNC, TOPDIR, HUGE_FILE, EA_INODE, EOFBLOCKS, SNAPFILE, SNAPFILE_DELETED, SNAPFILE_SHRUNK, INLINE_DATA, PROJINHERIT, RESERVED]
+inode 41 size = 4096
+inode 41 permissions = 0755, file type = 0x4000 (FDIR)
+inode 41 has expected ftype "FDIR" = True
+inode 41 uses extents = True
+Extent header magic = 0xf30a
+Extent header num entries = 1
+Extent header max entries = 4
+Extent header depth = 0
+Extent header has magic number 0xf30a as first bytes = True
+
+Extent entry 0:
+[binary data: 12 bytes]
+0000 | 00000000 01000000 2c400000 | b'\x00\x00\x00\x00\x01\x00\x00\x00,@\x00\x00'
+Extent (leaf) starting file block number = 0
+Extent (leaf) is initialized = True
+Extent (leaf) real length (blocks) = 1
+Extent (leaf) starting data block number = 16428
+Extent (leaf) is initialized = True
+Copying 4096 bytes into offset 0x000000000000 from filestystem block 16428
+
+Parsing 4096 bytes of directory content
+dirent (offset 0): inode = 41, lengths = 12:1, type = 2 (Directory)
+dirent name = "."
+dirent (offset 12): inode = 2, lengths = 12:2, type = 2 (Directory)
+dirent name = ".."
+dirent (offset 24): inode = 42, lengths = 24:14, type = 1 (Regular file)
+dirent name = "debian_version"
+dirent (offset 48): inode = 43, lengths = 16:7, type = 2 (Directory)
+dirent name = "default"
+dirent (offset 64): inode = 65, lengths = 12:4, type = 2 (Directory)
+dirent name = "dpkg"
+dirent (offset 76): inode = 73, lengths = 20:9, type = 1 (Regular file)
+dirent name = "host.conf"
+dirent (offset 96): inode = 74, lengths = 24:15, type = 1 (Regular file)
+dirent name = "kernel-img.conf"
+dirent (offset 120): inode = 75, lengths = 16:5, type = 1 (Regular file)
+dirent name = "legal"
+dirent (offset 136): inode = 76, lengths = 20:9, type = 2 (Directory)
+dirent name = "profile.d"
+dirent (offset 156): inode = 85, lengths = 12:4, type = 2 (Directory)
+dirent name = "skel"
+dirent (offset 168): inode = 89, lengths = 24:13, type = 2 (Directory)
+dirent name = "update-motd.d"
+dirent (offset 192): inode = 103, lengths = 16:7, type = 1 (Regular file)
+dirent name = "profile"
+dirent (offset 208): inode = 104, lengths = 16:8, type = 1 (Regular file)
+dirent name = "networks"
+dirent (offset 224): inode = 105, lengths = 12:3, type = 2 (Directory)
+dirent name = "opt"
+dirent (offset 236): inode = 106, lengths = 16:5, type = 1 (Regular file)
+dirent name = "hosts"
+dirent (offset 252): inode = 107, lengths = 20:11, type = 1 (Regular file)
+dirent name = "bash.bashrc"
+dirent (offset 272): inode = 108, lengths = 20:12, type = 1 (Regular file)
+dirent name = "deluser.conf"
+dirent (offset 292): inode = 109, lengths = 12:3, type = 2 (Directory)
+dirent name = "apt"
+dirent (offset 304): inode = 133, lengths = 20:12, type = 1 (Regular file)
+dirent name = "debconf.conf"
+dirent (offset 324): inode = 134, lengths = 20:10, type = 1 (Regular file)
+dirent name = "locale.gen"
+dirent (offset 344): inode = 135, lengths = 20:12, type = 2 (Directory)
+dirent name = "alternatives"
+dirent (offset 364): inode = 249, lengths = 20:10, type = 2 (Directory)
+dirent name = "cron.daily"
+dirent (offset 384): inode = 256, lengths = 20:11, type = 2 (Directory)
+dirent name = "logrotate.d"
+dirent (offset 404): inode = 268, lengths = 16:6, type = 2 (Directory)
+dirent name = "cron.d"
+dirent (offset 420): inode = 271, lengths = 20:12, type = 1 (Regular file)
+dirent name = "e2scrub.conf"
+dirent (offset 440): inode = 272, lengths = 20:11, type = 1 (Regular file)
+dirent name = "mke2fs.conf"
+dirent (offset 460): inode = 273, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc0.d"
+dirent (offset 476): inode = 286, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc1.d"
+dirent (offset 492): inode = 295, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc2.d"
+dirent (offset 508): inode = 310, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc3.d"
+dirent (offset 524): inode = 325, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc4.d"
+dirent (offset 540): inode = 340, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc5.d"
+dirent (offset 556): inode = 355, lengths = 16:5, type = 2 (Directory)
+dirent name = "rc6.d"
+dirent (offset 572): inode = 368, lengths = 16:5, type = 2 (Directory)
+dirent name = "rcS.d"
+dirent (offset 588): inode = 382, lengths = 16:7, type = 2 (Directory)
+dirent name = "systemd"
+dirent (offset 604): inode = 519, lengths = 20:10, type = 1 (Regular file)
+dirent name = "xattr.conf"
+dirent (offset 624): inode = 520, lengths = 24:13, type = 1 (Regular file)
+dirent name = "libaudit.conf"
+dirent (offset 648): inode = 521, lengths = 32:22, type = 1 (Regular file)
+dirent name = "bindresvport.blacklist"
+dirent (offset 680): inode = 522, lengths = 16:8, type = 1 (Regular file)
+dirent name = "gai.conf"
+dirent (offset 696): inode = 523, lengths = 20:10, type = 1 (Regular file)
+dirent name = "ld.so.conf"
+dirent (offset 716): inode = 524, lengths = 20:12, type = 2 (Directory)
+dirent name = "ld.so.conf.d"
+dirent (offset 736): inode = 527, lengths = 16:5, type = 1 (Regular file)
+dirent name = "issue"
+dirent (offset 752): inode = 528, lengths = 20:9, type = 1 (Regular file)
+dirent name = "issue.net"
+dirent (offset 772): inode = 529, lengths = 20:11, type = 1 (Regular file)
+dirent name = "lsb-release"
+dirent (offset 792): inode = 530, lengths = 12:3, type = 2 (Directory)
+dirent name = "gss"
+dirent (offset 804): inode = 532, lengths = 16:8, type = 2 (Directory)
+dirent name = "security"
+dirent (offset 820): inode = 546, lengths = 20:11, type = 1 (Regular file)
+dirent name = "ec2_version"
+dirent (offset 840): inode = 547, lengths = 16:8, type = 1 (Regular file)
+dirent name = "pam.conf"
+dirent (offset 856): inode = 548, lengths = 16:5, type = 2 (Directory)
+dirent name = "pam.d"
+dirent (offset 872): inode = 571, lengths = 16:7, type = 2 (Directory)
+dirent name = "selinux"
+dirent (offset 888): inode = 573, lengths = 20:9, type = 1 (Regular file)
+dirent name = "netconfig"
+dirent (offset 908): inode = 574, lengths = 20:10, type = 1 (Regular file)
+dirent name = "login.defs"
+dirent (offset 928): inode = 575, lengths = 20:11, type = 1 (Regular file)
+dirent name = "environment"
+dirent (offset 948): inode = 67690, lengths = 16:7, type = 1 (Regular file)
+dirent name = "gshadow"
+dirent (offset 964): inode = 577, lengths = 16:8, type = 2 (Directory)
+dirent name = "terminfo"
+dirent (offset 980): inode = 73125, lengths = 16:5, type = 1 (Regular file)
+dirent name = "fstab"
+dirent (offset 996): inode = 580, lengths = 20:9, type = 1 (Regular file)
+dirent name = ".pwd.lock"
+dirent (offset 1016): inode = 581, lengths = 20:10, type = 7 (Symbolic link)
+dirent name = "os-release"
+dirent (offset 1036): inode = 582, lengths = 16:6, type = 2 (Directory)
+dirent name = "init.d"
+dirent (offset 1052): inode = 611, lengths = 20:11, type = 1 (Regular file)
+dirent name = "sysctl.conf"
+dirent (offset 1072): inode = 612, lengths = 16:8, type = 2 (Directory)
+dirent name = "sysctl.d"
+dirent (offset 1088): inode = 67692, lengths = 16:6, type = 1 (Regular file)
+dirent name = "subuid"
+dirent (offset 1104): inode = 67693, lengths = 16:6, type = 1 (Regular file)
+dirent name = "subgid"
+dirent (offset 1120): inode = 625, lengths = 20:10, type = 2 (Directory)
+dirent name = "python3.10"
+dirent (offset 1140): inode = 627, lengths = 16:8, type = 2 (Directory)
+dirent name = "binfmt.d"
+dirent (offset 1156): inode = 628, lengths = 16:6, type = 2 (Directory)
+dirent name = "kernel"
+dirent (offset 1172): inode = 639, lengths = 24:14, type = 2 (Directory)
+dirent name = "modules-load.d"
+dirent (offset 1196): inode = 641, lengths = 20:10, type = 2 (Directory)
+dirent name = "tmpfiles.d"
+dirent (offset 1216): inode = 643, lengths = 12:3, type = 2 (Directory)
+dirent name = "xdg"
+dirent (offset 1228): inode = 651, lengths = 12:3, type = 7 (Symbolic link)
+dirent name = "rmt"
+dirent (offset 1240): inode = 652, lengths = 16:8, type = 1 (Regular file)
+dirent name = "hostname"
+dirent (offset 1256): inode = 653, lengths = 32:22, type = 1 (Regular file)
+dirent name = "overlayroot.local.conf"
+dirent (offset 1288): inode = 654, lengths = 20:12, type = 1 (Regular file)
+dirent name = "adduser.conf"
+dirent (offset 1308): inode = 45, lengths = 20:11, type = 7 (Symbolic link)
+dirent name = "resolv.conf"
+dirent (offset 1328): inode = 656, lengths = 20:10, type = 1 (Regular file)
+dirent name = "machine-id"
+dirent (offset 1348): inode = 16310, lengths = 16:5, type = 1 (Regular file)
+dirent name = "group"
+dirent (offset 1364): inode = 658, lengths = 12:4, type = 7 (Symbolic link)
+dirent name = "mtab"
+dirent (offset 1376): inode = 659, lengths = 24:15, type = 2 (Directory)
+dirent name = "ca-certificates"
+dirent (offset 1400): inode = 661, lengths = 12:3, type = 2 (Directory)
+dirent name = "ssl"
+dirent (offset 1412): inode = 914, lengths = 20:9, type = 7 (Symbolic link)
+dirent name = "localtime"
+dirent (offset 1432): inode = 915, lengths = 24:13, type = 2 (Directory)
+dirent name = "console-setup"
+dirent (offset 1456): inode = 955, lengths = 20:11, type = 2 (Directory)
+dirent name = "cron.hourly"
+dirent (offset 1476): inode = 957, lengths = 20:12, type = 2 (Directory)
+dirent name = "cron.monthly"
+dirent (offset 1496): inode = 959, lengths = 20:11, type = 2 (Directory)
+dirent name = "cron.weekly"
+dirent (offset 1516): inode = 962, lengths = 16:7, type = 1 (Regular file)
+dirent name = "crontab"
+dirent (offset 1532): inode = 963, lengths = 16:6, type = 2 (Directory)
+dirent name = "dbus-1"
+dirent (offset 1548): inode = 968, lengths = 20:9, type = 1 (Regular file)
+dirent name = "sudo.conf"
+dirent (offset 1568): inode = 969, lengths = 28:17, type = 1 (Regular file)
+dirent name = "sudo_logsrvd.conf"
+dirent (offset 1596): inode = 970, lengths = 16:7, type = 1 (Regular file)
+dirent name = "sudoers"
+dirent (offset 1612): inode = 971, lengths = 20:9, type = 2 (Directory)
+dirent name = "sudoers.d"
+dirent (offset 1632): inode = 973, lengths = 16:8, type = 2 (Directory)
+dirent name = "iproute2"
+dirent (offset 1648): inode = 987, lengths = 16:8, type = 2 (Directory)
+dirent name = "apparmor"
+dirent (offset 1664): inode = 992, lengths = 20:10, type = 2 (Directory)
+dirent name = "apparmor.d"
+dirent (offset 1684): inode = 1164, lengths = 12:4, type = 2 (Directory)
+dirent name = "dhcp"
+dirent (offset 1696): inode = 1176, lengths = 16:8, type = 2 (Directory)
+dirent name = "depmod.d"
+dirent (offset 1712): inode = 1178, lengths = 20:10, type = 2 (Directory)
+dirent name = "modprobe.d"
+dirent (offset 1732): inode = 1186, lengths = 12:4, type = 2 (Directory)
+dirent name = "newt"
+dirent (offset 1744): inode = 1190, lengths = 20:12, type = 1 (Regular file)
+dirent name = "locale.alias"
+dirent (offset 1764): inode = 1191, lengths = 24:14, type = 1 (Regular file)
+dirent name = "logrotate.conf"
+dirent (offset 1788): inode = 1192, lengths = 20:10, type = 1 (Regular file)
+dirent name = "mime.types"
+dirent (offset 1808): inode = 1193, lengths = 20:10, type = 1 (Regular file)
+dirent name = "ethertypes"
+dirent (offset 1828): inode = 1194, lengths = 20:9, type = 1 (Regular file)
+dirent name = "protocols"
+dirent (offset 1848): inode = 1195, lengths = 12:3, type = 1 (Regular file)
+dirent name = "rpc"
+dirent (offset 1860): inode = 1196, lengths = 16:8, type = 1 (Regular file)
+dirent name = "services"
+dirent (offset 1876): inode = 1197, lengths = 16:7, type = 2 (Directory)
+dirent name = "netplan"
+dirent (offset 1892): inode = 1198, lengths = 28:19, type = 2 (Directory)
+dirent name = "networkd-dispatcher"
+dirent (offset 1920): inode = 1205, lengths = 16:8, type = 2 (Directory)
+dirent name = "logcheck"
+dirent (offset 1936): inode = 1213, lengths = 20:12, type = 1 (Regular file)
+dirent name = "rsyslog.conf"
+dirent (offset 1956): inode = 1214, lengths = 20:9, type = 2 (Directory)
+dirent name = "rsyslog.d"
+dirent (offset 1976): inode = 1218, lengths = 28:20, type = 1 (Regular file)
+dirent name = "ca-certificates.conf"
+dirent (offset 2004): inode = 1219, lengths = 20:9, type = 1 (Regular file)
+dirent name = "fuse.conf"
+dirent (offset 2024): inode = 37190, lengths = 20:11, type = 1 (Regular file)
+dirent name = "ld.so.cache"
+dirent (offset 2044): inode = 1221, lengths = 20:11, type = 1 (Regular file)
+dirent name = "hosts.allow"
+dirent (offset 2064): inode = 1222, lengths = 20:10, type = 1 (Regular file)
+dirent name = "hosts.deny"
+dirent (offset 2084): inode = 1223, lengths = 16:6, type = 1 (Regular file)
+dirent name = "shells"
+dirent (offset 2100): inode = 1224, lengths = 24:16, type = 2 (Directory)
+dirent name = "ubuntu-advantage"
+dirent (offset 2124): inode = 1227, lengths = 24:14, type = 2 (Directory)
+dirent name = "update-manager"
+dirent (offset 2148): inode = 1232, lengths = 16:8, type = 1 (Regular file)
+dirent name = "ucf.conf"
+dirent (offset 2164): inode = 1233, lengths = 12:4, type = 2 (Directory)
+dirent name = "udev"
+dirent (offset 2176): inode = 1238, lengths = 12:3, type = 2 (Directory)
+dirent name = "lvm"
+dirent (offset 2188): inode = 1250, lengths = 12:3, type = 2 (Directory)
+dirent name = "vim"
+dirent (offset 2200): inode = 1253, lengths = 12:3, type = 2 (Directory)
+dirent name = "X11"
+dirent (offset 2212): inode = 110, lengths = 24:13, type = 1 (Regular file)
+dirent name = "nsswitch.conf"
+dirent (offset 2236): inode = 1259, lengths = 16:7, type = 1 (Regular file)
+dirent name = "modules"
+dirent (offset 2252): inode = 1260, lengths = 40:29, type = 1 (Regular file)
+dirent name = "ca-certificates.conf.dpkg-old"
+dirent (offset 2292): inode = 1261, lengths = 16:8, type = 1 (Regular file)
+dirent name = "timezone"
+dirent (offset 2308): inode = 1262, lengths = 16:5, type = 2 (Directory)
+dirent name = "iscsi"
+dirent (offset 2324): inode = 1265, lengths = 16:7, type = 1 (Regular file)
+dirent name = "inputrc"
+dirent (offset 2340): inode = 1266, lengths = 16:7, type = 2 (Directory)
+dirent name = "python3"
+dirent (offset 2356): inode = 1268, lengths = 16:5, type = 7 (Symbolic link)
+dirent name = "vtrgb"
+dirent (offset 2372): inode = 1269, lengths = 12:3, type = 2 (Directory)
+dirent name = "ssh"
+dirent (offset 2384): inode = 1276, lengths = 12:3, type = 2 (Directory)
+dirent name = "ufw"
+dirent (offset 2396): inode = 1289, lengths = 12:4, type = 2 (Directory)
+dirent name = "perl"
+dirent (offset 2408): inode = 1292, lengths = 24:15, type = 2 (Directory)
+dirent name = "update-notifier"
+dirent (offset 2432): inode = 1293, lengths = 20:12, type = 2 (Directory)
+dirent name = "vmware-tools"
+dirent (offset 2452): inode = 1317, lengths = 24:15, type = 1 (Regular file)
+dirent name = "bash_completion"
+dirent (offset 2476): inode = 1318, lengths = 32:21, type = 1 (Regular file)
+dirent name = "zsh_command_not_found"
+dirent (offset 2508): inode = 1319, lengths = 16:5, type = 1 (Regular file)
+dirent name = "magic"
+dirent (offset 2524): inode = 1320, lengths = 20:10, type = 1 (Regular file)
+dirent name = "magic.mime"
+dirent (offset 2544): inode = 1321, lengths = 16:5, type = 2 (Directory)
+dirent name = "groff"
+dirent (offset 2560): inode = 1324, lengths = 20:11, type = 1 (Regular file)
+dirent name = "hdparm.conf"
+dirent (offset 2580): inode = 1325, lengths = 24:14, type = 1 (Regular file)
+dirent name = "manpath.config"
+dirent (offset 2604): inode = 1326, lengths = 16:6, type = 1 (Regular file)
+dirent name = "nanorc"
+dirent (offset 2620): inode = 1327, lengths = 24:13, type = 1 (Regular file)
+dirent name = "nftables.conf"
+dirent (offset 2644): inode = 1328, lengths = 28:20, type = 2 (Directory)
+dirent name = "cryptsetup-initramfs"
+dirent (offset 2672): inode = 1330, lengths = 16:6, type = 1 (Regular file)
+dirent name = "wgetrc"
+dirent (offset 2688): inode = 1331, lengths = 16:6, type = 2 (Directory)
+dirent name = "apport"
+dirent (offset 2704): inode = 1336, lengths = 28:17, type = 2 (Directory)
+dirent name = "bash_completion.d"
+dirent (offset 2732): inode = 1339, lengths = 16:5, type = 2 (Directory)
+dirent name = "byobu"
+dirent (offset 2748): inode = 1342, lengths = 16:8, type = 1 (Regular file)
+dirent name = "crypttab"
+dirent (offset 2764): inode = 1343, lengths = 24:15, type = 2 (Directory)
+dirent name = "initramfs-tools"
+dirent (offset 2788): inode = 1360, lengths = 16:7, type = 2 (Directory)
+dirent name = "network"
+dirent (offset 2804): inode = 1365, lengths = 16:6, type = 2 (Directory)
+dirent name = "grub.d"
+dirent (offset 2820): inode = 1376, lengths = 12:2, type = 2 (Directory)
+dirent name = "pm"
+dirent (offset 2832): inode = 1380, lengths = 16:7, type = 2 (Directory)
+dirent name = "libnl-3"
+dirent (offset 2848): inode = 1383, lengths = 20:9, type = 2 (Directory)
+dirent name = "landscape"
+dirent (offset 2868): inode = 1384, lengths = 20:11, type = 2 (Directory)
+dirent name = "libblockdev"
+dirent (offset 2888): inode = 1387, lengths = 16:8, type = 1 (Regular file)
+dirent name = "screenrc"
+dirent (offset 2904): inode = 1388, lengths = 12:4, type = 2 (Directory)
+dirent name = "ldap"
+dirent (offset 2916): inode = 67740, lengths = 16:6, type = 1 (Regular file)
+dirent name = "passwd"
+dirent (offset 2932): inode = 67689, lengths = 16:6, type = 1 (Regular file)
+dirent name = "shadow"
+dirent (offset 2948): inode = 1392, lengths = 24:14, type = 1 (Regular file)
+dirent name = "multipath.conf"
+dirent (offset 2972): inode = 1393, lengths = 24:16, type = 1 (Regular file)
+dirent name = "overlayroot.conf"
+dirent (offset 2996): inode = 1394, lengths = 28:19, type = 1 (Regular file)
+dirent name = "usb_modeswitch.conf"
+dirent (offset 3024): inode = 1395, lengths = 16:5, type = 2 (Directory)
+dirent name = "mdadm"
+dirent (offset 3040): inode = 1397, lengths = 16:8, type = 2 (Directory)
+dirent name = "polkit-1"
+dirent (offset 3056): inode = 1407, lengths = 20:11, type = 2 (Directory)
+dirent name = "needrestart"
+dirent (offset 3076): inode = 1427, lengths = 20:10, type = 2 (Directory)
+dirent name = "PackageKit"
+dirent (offset 3096): inode = 1430, lengths = 20:9, type = 2 (Directory)
+dirent name = "pollinate"
+dirent (offset 3116): inode = 1432, lengths = 12:3, type = 2 (Directory)
+dirent name = "sos"
+dirent (offset 3128): inode = 1438, lengths = 24:14, type = 2 (Directory)
+dirent name = "NetworkManager"
+dirent (offset 3152): inode = 1441, lengths = 16:5, type = 2 (Directory)
+dirent name = "cloud"
+dirent (offset 3168): inode = 1492, lengths = 24:16, type = 2 (Directory)
+dirent name = "usb_modeswitch.d"
+dirent (offset 3192): inode = 67695, lengths = 24:6, type = 1 (Regular file)
+dirent name = "group-"
+dirent (offset 3216): inode = 81950, lengths = 12:4, type = 2 (Directory)
+dirent name = "acpi"
+dirent (offset 3228): inode = 81961, lengths = 24:6, type = 2 (Directory)
+dirent name = "chrony"
+dirent (offset 3252): inode = 16309, lengths = 16:7, type = 1 (Regular file)
+dirent name = "passwd-"
+dirent (offset 3268): inode = 81965, lengths = 12:3, type = 2 (Directory)
+dirent name = "ppp"
+dirent (offset 3280): inode = 260189, lengths = 12:4, type = 2 (Directory)
+dirent name = "sgml"
+dirent (offset 3292): inode = 1390, lengths = 16:7, type = 1 (Regular file)
+dirent name = "shadow-"
+dirent (offset 3308): inode = 657, lengths = 16:8, type = 1 (Regular file)
+dirent name = "gshadow-"
+dirent (offset 3324): inode = 258051, lengths = 20:9, type = 2 (Directory)
+dirent name = "multipath"
+dirent (offset 3344): inode = 67604, lengths = 36:18, type = 1 (Regular file)
+dirent name = "hibinit-config.cfg"
+dirent (offset 3380): inode = 67626, lengths = 28:19, type = 1 (Regular file)
+dirent name = "hibagent-config.cfg"
+dirent (offset 3408): inode = 67691, lengths = 16:7, type = 1 (Regular file)
+dirent name = "subuid-"
+dirent (offset 3424): inode = 258285, lengths = 16:5, type = 2 (Directory)
+dirent name = ".java"
+dirent (offset 3440): inode = 259357, lengths = 24:13, type = 2 (Directory)
+dirent name = "ImageMagick-6"
+dirent (offset 3464): inode = 258988, lengths = 16:5, type = 2 (Directory)
+dirent name = "fonts"
+dirent (offset 3480): inode = 35778, lengths = 28:13, type = 1 (Regular file)
+dirent name = "mailcap.order"
+dirent (offset 3508): inode = 259651, lengths = 20:11, type = 2 (Directory)
+dirent name = "ghostscript"
+dirent (offset 3528): inode = 262526, lengths = 20:3, type = 2 (Directory)
+dirent name = "xml"
+dirent (offset 3548): inode = 623, lengths = 16:7, type = 1 (Regular file)
+dirent name = "subgid-"
+dirent (offset 3564): inode = 268600, lengths = 52:10, type = 2 (Directory)
+dirent name = "libpaper.d"
+dirent (offset 3616): inode = 35711, lengths = 20:9, type = 1 (Regular file)
+dirent name = "papersize"
+dirent (offset 3636): inode = 37135, lengths = 448:7, type = 1 (Regular file)
+dirent name = "mailcap"
+dirent (offset 4084): inode = 0, lengths = 12:0, type = 222 ([checksum])
+Fake checksum dirent has inode==0 = True
+Fake checksum dirent has 12-byte record length = True
+Fake checksum dirent has 0-length name = True
+Checksum value = 0x2ca0c363
+Not adding dirent to results since it has a 0 inode value
+
+At inode 41 (/etc)
+> ls
+"." (Directory, inode 41)
+".." (Directory, inode 2)
+".java" (Directory, inode 258285)
+".pwd.lock" (Regular file, inode 580)
+"ImageMagick-6" (Directory, inode 259357)
+"NetworkManager" (Directory, inode 1438)
+"PackageKit" (Directory, inode 1427)
+"X11" (Directory, inode 1253)
+"acpi" (Directory, inode 81950)
+"adduser.conf" (Regular file, inode 654)
+"alternatives" (Directory, inode 135)
+"apparmor" (Directory, inode 987)
+"apparmor.d" (Directory, inode 992)
+"apport" (Directory, inode 1331)
+"apt" (Directory, inode 109)
+"bash.bashrc" (Regular file, inode 107)
+"bash_completion" (Regular file, inode 1317)
+"bash_completion.d" (Directory, inode 1336)
+"bindresvport.blacklist" (Regular file, inode 521)
+"binfmt.d" (Directory, inode 627)
+"byobu" (Directory, inode 1339)
+"ca-certificates" (Directory, inode 659)
+"ca-certificates.conf" (Regular file, inode 1218)
+"ca-certificates.conf.dpkg-old" (Regular file, inode 1260)
+"chrony" (Directory, inode 81961)
+"cloud" (Directory, inode 1441)
+"console-setup" (Directory, inode 915)
+"cron.d" (Directory, inode 268)
+"cron.daily" (Directory, inode 249)
+"cron.hourly" (Directory, inode 955)
+"cron.monthly" (Directory, inode 957)
+"cron.weekly" (Directory, inode 959)
+"crontab" (Regular file, inode 962)
+"cryptsetup-initramfs" (Directory, inode 1328)
+"crypttab" (Regular file, inode 1342)
+"dbus-1" (Directory, inode 963)
+"debconf.conf" (Regular file, inode 133)
+"debian_version" (Regular file, inode 42)
+"default" (Directory, inode 43)
+"deluser.conf" (Regular file, inode 108)
+"depmod.d" (Directory, inode 1176)
+"dhcp" (Directory, inode 1164)
+"dpkg" (Directory, inode 65)
+"e2scrub.conf" (Regular file, inode 271)
+"ec2_version" (Regular file, inode 546)
+"environment" (Regular file, inode 575)
+"ethertypes" (Regular file, inode 1193)
+"fonts" (Directory, inode 258988)
+"fstab" (Regular file, inode 73125)
+"fuse.conf" (Regular file, inode 1219)
+"gai.conf" (Regular file, inode 522)
+"ghostscript" (Directory, inode 259651)
+"groff" (Directory, inode 1321)
+"group" (Regular file, inode 16310)
+"group-" (Regular file, inode 67695)
+"grub.d" (Directory, inode 1365)
+"gshadow" (Regular file, inode 67690)
+"gshadow-" (Regular file, inode 657)
+"gss" (Directory, inode 530)
+"hdparm.conf" (Regular file, inode 1324)
+"hibagent-config.cfg" (Regular file, inode 67626)
+"hibinit-config.cfg" (Regular file, inode 67604)
+"host.conf" (Regular file, inode 73)
+"hostname" (Regular file, inode 652)
+"hosts" (Regular file, inode 106)
+"hosts.allow" (Regular file, inode 1221)
+"hosts.deny" (Regular file, inode 1222)
+"init.d" (Directory, inode 582)
+"initramfs-tools" (Directory, inode 1343)
+"inputrc" (Regular file, inode 1265)
+"iproute2" (Directory, inode 973)
+"iscsi" (Directory, inode 1262)
+"issue" (Regular file, inode 527)
+"issue.net" (Regular file, inode 528)
+"kernel" (Directory, inode 628)
+"kernel-img.conf" (Regular file, inode 74)
+"landscape" (Directory, inode 1383)
+"ld.so.cache" (Regular file, inode 37190)
+"ld.so.conf" (Regular file, inode 523)
+"ld.so.conf.d" (Directory, inode 524)
+"ldap" (Directory, inode 1388)
+"legal" (Regular file, inode 75)
+"libaudit.conf" (Regular file, inode 520)
+"libblockdev" (Directory, inode 1384)
+"libnl-3" (Directory, inode 1380)
+"libpaper.d" (Directory, inode 268600)
+"locale.alias" (Regular file, inode 1190)
+"locale.gen" (Regular file, inode 134)
+"localtime" (Symbolic link, inode 914)
+"logcheck" (Directory, inode 1205)
+"login.defs" (Regular file, inode 574)
+"logrotate.conf" (Regular file, inode 1191)
+"logrotate.d" (Directory, inode 256)
+"lsb-release" (Regular file, inode 529)
+"lvm" (Directory, inode 1238)
+"machine-id" (Regular file, inode 656)
+"magic" (Regular file, inode 1319)
+"magic.mime" (Regular file, inode 1320)
+"mailcap" (Regular file, inode 37135)
+"mailcap.order" (Regular file, inode 35778)
+"manpath.config" (Regular file, inode 1325)
+"mdadm" (Directory, inode 1395)
+"mime.types" (Regular file, inode 1192)
+"mke2fs.conf" (Regular file, inode 272)
+"modprobe.d" (Directory, inode 1178)
+"modules" (Regular file, inode 1259)
+"modules-load.d" (Directory, inode 639)
+"mtab" (Symbolic link, inode 658)
+"multipath" (Directory, inode 258051)
+"multipath.conf" (Regular file, inode 1392)
+"nanorc" (Regular file, inode 1326)
+"needrestart" (Directory, inode 1407)
+"netconfig" (Regular file, inode 573)
+"netplan" (Directory, inode 1197)
+"network" (Directory, inode 1360)
+"networkd-dispatcher" (Directory, inode 1198)
+"networks" (Regular file, inode 104)
+"newt" (Directory, inode 1186)
+"nftables.conf" (Regular file, inode 1327)
+"nsswitch.conf" (Regular file, inode 110)
+"opt" (Directory, inode 105)
+"os-release" (Symbolic link, inode 581)
+"overlayroot.conf" (Regular file, inode 1393)
+"overlayroot.local.conf" (Regular file, inode 653)
+"pam.conf" (Regular file, inode 547)
+"pam.d" (Directory, inode 548)
+"papersize" (Regular file, inode 35711)
+"passwd" (Regular file, inode 67740)
+"passwd-" (Regular file, inode 16309)
+"perl" (Directory, inode 1289)
+"pm" (Directory, inode 1376)
+"polkit-1" (Directory, inode 1397)
+"pollinate" (Directory, inode 1430)
+"ppp" (Directory, inode 81965)
+"profile" (Regular file, inode 103)
+"profile.d" (Directory, inode 76)
+"protocols" (Regular file, inode 1194)
+"python3" (Directory, inode 1266)
+"python3.10" (Directory, inode 625)
+"rc0.d" (Directory, inode 273)
+"rc1.d" (Directory, inode 286)
+"rc2.d" (Directory, inode 295)
+"rc3.d" (Directory, inode 310)
+"rc4.d" (Directory, inode 325)
+"rc5.d" (Directory, inode 340)
+"rc6.d" (Directory, inode 355)
+"rcS.d" (Directory, inode 368)
+"resolv.conf" (Symbolic link, inode 45)
+"rmt" (Symbolic link, inode 651)
+"rpc" (Regular file, inode 1195)
+"rsyslog.conf" (Regular file, inode 1213)
+"rsyslog.d" (Directory, inode 1214)
+"screenrc" (Regular file, inode 1387)
+"security" (Directory, inode 532)
+"selinux" (Directory, inode 571)
+"services" (Regular file, inode 1196)
+"sgml" (Directory, inode 260189)
+"shadow" (Regular file, inode 67689)
+"shadow-" (Regular file, inode 1390)
+"shells" (Regular file, inode 1223)
+"skel" (Directory, inode 85)
+"sos" (Directory, inode 1432)
+"ssh" (Directory, inode 1269)
+"ssl" (Directory, inode 661)
+"subgid" (Regular file, inode 67693)
+"subgid-" (Regular file, inode 623)
+"subuid" (Regular file, inode 67692)
+"subuid-" (Regular file, inode 67691)
+"sudo.conf" (Regular file, inode 968)
+"sudo_logsrvd.conf" (Regular file, inode 969)
+"sudoers" (Regular file, inode 970)
+"sudoers.d" (Directory, inode 971)
+"sysctl.conf" (Regular file, inode 611)
+"sysctl.d" (Directory, inode 612)
+"systemd" (Directory, inode 382)
+"terminfo" (Directory, inode 577)
+"timezone" (Regular file, inode 1261)
+"tmpfiles.d" (Directory, inode 641)
+"ubuntu-advantage" (Directory, inode 1224)
+"ucf.conf" (Regular file, inode 1232)
+"udev" (Directory, inode 1233)
+"ufw" (Directory, inode 1276)
+"update-manager" (Directory, inode 1227)
+"update-motd.d" (Directory, inode 89)
+"update-notifier" (Directory, inode 1292)
+"usb_modeswitch.conf" (Regular file, inode 1394)
+"usb_modeswitch.d" (Directory, inode 1492)
+"vim" (Directory, inode 1250)
+"vmware-tools" (Directory, inode 1293)
+"vtrgb" (Symbolic link, inode 1268)
+"wgetrc" (Regular file, inode 1330)
+"xattr.conf" (Regular file, inode 519)
+"xdg" (Directory, inode 643)
+"xml" (Directory, inode 262526)
+"zsh_command_not_found" (Regular file, inode 1318)
+
+At inode 41 (/etc)
+> xxd hosts
+
+get_inode(106): index is 105 in block group 0
+get_inode(106): byte offset is 2304 (length=256) in block 6 relative to table
+get_inode(106): exact filesystem block is 295 (289 + 6)
+
+inode 106 descriptor data
+[binary data: 256 bytes]
+0000 | a4810000 dd000000 0bdb4464 41651e64 | b'\xa4\x81\x00\x00\xdd\x00\x00\x00\x0b\xdbDdAe\x1ed'
+0010 | 5f621d64 00000000 00000100 08000000 | b'_b\x1dd\x00\x00\x00\x00\x00\x00\x01\x00\x08\x00\x00\x00'
+0020 | 00000800 01000000 0af30100 04000000 | b'\x00\x00\x08\x00\x01\x00\x00\x00\n\xf3\x01\x00\x04\x00\x00\x00'
+0030 | 00000000 00000000 01000000 ed870000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\xed\x87\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 36b80987 00000000 00000000 | b'\x00\x00\x00\x006\xb8\t\x87\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 5d640000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]d\x00\x00'
+0080 | 20008051 48e4bf1b 00000000 ecfab543 | b' \x00\x80QH\xe4\xbf\x1b\x00\x00\x00\x00\xec\xfa\xb5C'
+0090 | 41651e64 48e4bf1b 00000000 00000000 | b'Ae\x1edH\xe4\xbf\x1b\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+inode 106 flags: 0x80000
+ ->   set: [EXTENTS]
+ -> clear: [SECRM, UNRM, COMPR, SYNC, IMMUTABLE, APPEND, NODUMP, NOATIME, DIRTY, COMPRBLK, NOCOMPR, ENCRYPT, INDEX, IMAGIC, JOURNAL_DATA, NOTAIL, DIRSYNC, TOPDIR, HUGE_FILE, EA_INODE, EOFBLOCKS, SNAPFILE, SNAPFILE_DELETED, SNAPFILE_SHRUNK, INLINE_DATA, PROJINHERIT, RESERVED]
+inode 106 size = 221
+inode 106 permissions = 0644, file type = 0x8000 (FREG)
+inode 106 uses extents = True
+Extent header magic = 0xf30a
+Extent header num entries = 1
+Extent header max entries = 4
+Extent header depth = 0
+Extent header has magic number 0xf30a as first bytes = True
+
+Extent entry 0:
+[binary data: 12 bytes]
+0000 | 00000000 01000000 ed870000 | b'\x00\x00\x00\x00\x01\x00\x00\x00\xed\x87\x00\x00'
+Extent (leaf) starting file block number = 0
+Extent (leaf) is initialized = True
+Extent (leaf) real length (blocks) = 1
+Extent (leaf) starting data block number = 34797
+Extent (leaf) is initialized = True
+Copying 4096 bytes into offset 0x000000000000 from filestystem block 34797
+(API call: fetching EBS block 493...)
+
+[Contents of "hosts" (inode 106)]
+[binary data: 221 bytes]
+0000 | 3132372e 302e302e 31206c6f 63616c68 | bytearray(b'127.0.0.1 localh')
+0010 | 6f73740a 0a232054 68652066 6f6c6c6f | bytearray(b'ost\n\n# The follo')
+0020 | 77696e67 206c696e 65732061 72652064 | bytearray(b'wing lines are d')
+0030 | 65736972 61626c65 20666f72 20495076 | bytearray(b'esirable for IPv')
+0040 | 36206361 7061626c 6520686f 7374730a | bytearray(b'6 capable hosts\n')
+0050 | 3a3a3120 6970362d 6c6f6361 6c686f73 | bytearray(b'::1 ip6-localhos')
+0060 | 74206970 362d6c6f 6f706261 636b0a66 | bytearray(b't ip6-loopback\nf')
+0070 | 6530303a 3a302069 70362d6c 6f63616c | bytearray(b'e00::0 ip6-local')
+0080 | 6e65740a 66663030 3a3a3020 6970362d | bytearray(b'net\nff00::0 ip6-')
+0090 | 6d636173 74707265 6669780a 66663032 | bytearray(b'mcastprefix\nff02')
+00a0 | 3a3a3120 6970362d 616c6c6e 6f646573 | bytearray(b'::1 ip6-allnodes')
+00b0 | 0a666630 323a3a32 20697036 2d616c6c | bytearray(b'\nff02::2 ip6-all')
+00c0 | 726f7574 6572730a 66663032 3a3a3320 | bytearray(b'routers\nff02::3 ')
+00d0 | 6970362d 616c6c68 6f737473 0a | bytearray(b'ip6-allhosts\n')
+
+
+At inode 41 (/etc)
+> cat hosts
+
+get_inode(106): index is 105 in block group 0
+get_inode(106): byte offset is 2304 (length=256) in block 6 relative to table
+get_inode(106): exact filesystem block is 295 (289 + 6)
+
+inode 106 descriptor data
+[binary data: 256 bytes]
+0000 | a4810000 dd000000 0bdb4464 41651e64 | b'\xa4\x81\x00\x00\xdd\x00\x00\x00\x0b\xdbDdAe\x1ed'
+0010 | 5f621d64 00000000 00000100 08000000 | b'_b\x1dd\x00\x00\x00\x00\x00\x00\x01\x00\x08\x00\x00\x00'
+0020 | 00000800 01000000 0af30100 04000000 | b'\x00\x00\x08\x00\x01\x00\x00\x00\n\xf3\x01\x00\x04\x00\x00\x00'
+0030 | 00000000 00000000 01000000 ed870000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\xed\x87\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 36b80987 00000000 00000000 | b'\x00\x00\x00\x006\xb8\t\x87\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 5d640000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]d\x00\x00'
+0080 | 20008051 48e4bf1b 00000000 ecfab543 | b' \x00\x80QH\xe4\xbf\x1b\x00\x00\x00\x00\xec\xfa\xb5C'
+0090 | 41651e64 48e4bf1b 00000000 00000000 | b'Ae\x1edH\xe4\xbf\x1b\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+inode 106 flags: 0x80000
+ ->   set: [EXTENTS]
+ -> clear: [SECRM, UNRM, COMPR, SYNC, IMMUTABLE, APPEND, NODUMP, NOATIME, DIRTY, COMPRBLK, NOCOMPR, ENCRYPT, INDEX, IMAGIC, JOURNAL_DATA, NOTAIL, DIRSYNC, TOPDIR, HUGE_FILE, EA_INODE, EOFBLOCKS, SNAPFILE, SNAPFILE_DELETED, SNAPFILE_SHRUNK, INLINE_DATA, PROJINHERIT, RESERVED]
+inode 106 size = 221
+inode 106 permissions = 0644, file type = 0x8000 (FREG)
+inode 106 uses extents = True
+Extent header magic = 0xf30a
+Extent header num entries = 1
+Extent header max entries = 4
+Extent header depth = 0
+Extent header has magic number 0xf30a as first bytes = True
+
+Extent entry 0:
+[binary data: 12 bytes]
+0000 | 00000000 01000000 ed870000 | b'\x00\x00\x00\x00\x01\x00\x00\x00\xed\x87\x00\x00'
+Extent (leaf) starting file block number = 0
+Extent (leaf) is initialized = True
+Extent (leaf) real length (blocks) = 1
+Extent (leaf) starting data block number = 34797
+Extent (leaf) is initialized = True
+Copying 4096 bytes into offset 0x000000000000 from filestystem block 34797
+
+[Contents of "hosts" (inode 106)]
+127.0.0.1 localhost
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+
+
+At inode 41 (/etc)
+> stat hosts
+
+get_inode(106): index is 105 in block group 0
+get_inode(106): byte offset is 2304 (length=256) in block 6 relative to table
+get_inode(106): exact filesystem block is 295 (289 + 6)
+
+inode 106 descriptor data
+[binary data: 256 bytes]
+0000 | a4810000 dd000000 0bdb4464 41651e64 | b'\xa4\x81\x00\x00\xdd\x00\x00\x00\x0b\xdbDdAe\x1ed'
+0010 | 5f621d64 00000000 00000100 08000000 | b'_b\x1dd\x00\x00\x00\x00\x00\x00\x01\x00\x08\x00\x00\x00'
+0020 | 00000800 01000000 0af30100 04000000 | b'\x00\x00\x08\x00\x01\x00\x00\x00\n\xf3\x01\x00\x04\x00\x00\x00'
+0030 | 00000000 00000000 01000000 ed870000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\xed\x87\x00\x00'
+0040 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0050 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+0060 | 00000000 36b80987 00000000 00000000 | b'\x00\x00\x00\x006\xb8\t\x87\x00\x00\x00\x00\x00\x00\x00\x00'
+0070 | 00000000 00000000 00000000 5d640000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]d\x00\x00'
+0080 | 20008051 48e4bf1b 00000000 ecfab543 | b' \x00\x80QH\xe4\xbf\x1b\x00\x00\x00\x00\xec\xfa\xb5C'
+0090 | 41651e64 48e4bf1b 00000000 00000000 | b'Ae\x1edH\xe4\xbf\x1b\x00\x00\x00\x00\x00\x00\x00\x00'
+00a0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00b0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00c0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00d0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00e0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+00f0 | 00000000 00000000 00000000 00000000 | b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+inode 106 flags: 0x80000
+ ->   set: [EXTENTS]
+ -> clear: [SECRM, UNRM, COMPR, SYNC, IMMUTABLE, APPEND, NODUMP, NOATIME, DIRTY, COMPRBLK, NOCOMPR, ENCRYPT, INDEX, IMAGIC, JOURNAL_DATA, NOTAIL, DIRSYNC, TOPDIR, HUGE_FILE, EA_INODE, EOFBLOCKS, SNAPFILE, SNAPFILE_DELETED, SNAPFILE_SHRUNK, INLINE_DATA, PROJINHERIT, RESERVED]
+inode 106 size = 221
+inode 106 permissions = 0644, file type = 0x8000 (FREG)
+
+At inode 41 (/etc)
+> quit
+
+Session stats:
+  EBS Direct block reads: 6
